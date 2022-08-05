@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 80px;
+  max-width: 100%;
+  min-width: 0;
+}
+.root_class_modalidad {
+  height: 80px;
+  max-height: 80px;
+  width: auto;
+  display: inline-flex;
+}
+.root_class_puesto {
+  height: 80px;
+  max-height: 80px;
+  width: auto;
+  max-width: 100%;
+  display: inline-flex;
+}

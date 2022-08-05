@@ -1,0 +1,40 @@
+.drawer_container {
+  display: none !important;
+  
+  position: fixed !important;
+  z-index: 20000;
+
+  top: 0;
+  float: right;
+  max-width: 475px;
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
+}
+
+.drawer_animation  {
+  transition: right 0.5s cubic-bezier(0.82, 0.085, 0.395, 0.895);
+}
+
+.drawer_container__show {
+  right: 0;
+}
+
+.drawer_container__hidden {
+  right: -100vw;
+}
+
+.navbar_container {
+  position: fixed;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+@media (max-width: 1200px) {
+  .drawer_container {
+    display: flex !important;
+  }
+}
+
+

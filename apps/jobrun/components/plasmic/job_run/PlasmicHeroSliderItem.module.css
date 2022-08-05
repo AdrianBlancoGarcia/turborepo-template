@@ -1,0 +1,162 @@
+.root {
+  flex-direction: column;
+  background: linear-gradient(180deg, #000000cc 6%, #00000054 46%) 0% 0% / 100%
+      100% no-repeat,
+    linear-gradient(rgba(106, 12, 247, 0.2), rgba(106, 12, 247, 0.2)),
+    url("https://site-assets.plasmic.app/edd12e4e07ddc9586f10293616a78934.jpg")
+      center center / cover no-repeat;
+  box-shadow: inset 0px 0px 0px 7px rgba(255, 255, 255, 0.2);
+  transform: none;
+  width: 275px;
+  height: 100%;
+  display: flex;
+  transform-origin: top left;
+  position: relative;
+  transition-property: box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+  min-height: 0;
+  -webkit-transition-property: box-shadow;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+  border-radius: 20px;
+  padding: 42px 30px 30px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 0;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 10px;
+}
+@media (max-width: 1440px) {
+  .root {
+    width: 250px;
+  }
+}
+@media (max-width: 1200px) {
+  .root {
+    width: 260px;
+    padding-top: 35px;
+  }
+}
+@media (max-width: 1024px) {
+  .root {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 260px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    width: 260px;
+    padding: 35px 20px 20px;
+  }
+}
+.rootcategory_remoto {
+  box-shadow: inset 0px 0px 0px 7px #ffffff33;
+}
+.rootcategory_fullStack {
+  background: linear-gradient(180deg, #000000cc 6%, #00000054 46%) 0% 0% / 100%
+      100% no-repeat,
+    linear-gradient(rgba(106, 12, 247, 0.2), rgba(106, 12, 247, 0.2)),
+    url("https://site-assets.plasmic.app/dd8d60b5e31d5cd80e31fc34f8517f8d.png")
+      center center / cover no-repeat;
+  box-shadow: inset 0px 0px 0px 7px #ffffff33;
+}
+.rootcategory_frontEnd {
+  background: linear-gradient(180deg, #000000cc 6%, #00000054 46%) 0% 0% / 100%
+      100% no-repeat,
+    linear-gradient(rgba(106, 12, 247, 0.2), rgba(106, 12, 247, 0.2)),
+    url("https://site-assets.plasmic.app/7eb845fef558b80c8549dacb27efd58c.png")
+      center center / cover no-repeat;
+  box-shadow: inset 0px 0px 0px 7px #ffffff33;
+}
+.rootcategory_backEnd {
+  background: linear-gradient(180deg, #000000cc 6%, #00000054 46%) 0% 0% / 100%
+      100% no-repeat,
+    linear-gradient(rgba(106, 12, 247, 0.2), rgba(106, 12, 247, 0.2)),
+    url("https://site-assets.plasmic.app/947fa50ab8f2abf676b0d95fd89c8860.png")
+      center center / cover no-repeat;
+}
+.root:hover {
+  box-shadow: inset 0px 0px 0px 7px #ffffff99, inset 0px 0px 20px 7px #ffffff66,
+    0px 0px 16px 0px #ffffff66;
+  background: linear-gradient(180deg, #000000cc 6%, #00000054 46%) 0% 0% / 100%
+      100% no-repeat,
+    linear-gradient(rgba(106, 12, 247, 0.2), rgba(106, 12, 247, 0.2)),
+    url("https://site-assets.plasmic.app/edd12e4e07ddc9586f10293616a78934.jpg")
+      center center / cover no-repeat;
+}
+.rootcategory_fullStack:hover {
+  background: linear-gradient(180deg, #000000cc 6%, #00000054 46%) 0% 0% / 100%
+      100% no-repeat,
+    linear-gradient(rgba(106, 12, 247, 0.2), rgba(106, 12, 247, 0.2)),
+    url("https://site-assets.plasmic.app/dd8d60b5e31d5cd80e31fc34f8517f8d.png")
+      center center / cover no-repeat;
+}
+.rootcategory_frontEnd:hover {
+  background: linear-gradient(180deg, #000000cc 6%, #00000054 46%) 0% 0% / 100%
+      100% no-repeat,
+    linear-gradient(rgba(106, 12, 247, 0.2), rgba(106, 12, 247, 0.2)),
+    url("https://site-assets.plasmic.app/7eb845fef558b80c8549dacb27efd58c.png")
+      center center / cover no-repeat;
+}
+.rootcategory_backEnd:hover {
+  background: linear-gradient(180deg, #000000cc 6%, #00000054 46%) 0% 0% / 100%
+      100% no-repeat,
+    linear-gradient(rgba(106, 12, 247, 0.2), rgba(106, 12, 247, 0.2)),
+    url("https://site-assets.plasmic.app/947fa50ab8f2abf676b0d95fd89c8860.png")
+      center center / cover no-repeat;
+}
+.titleContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+}
+.slotTargetTitle {
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 24px;
+}
+@media (max-width: 1200px) {
+  .slotTargetTitle {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1024px) {
+  .slotTargetTitle {
+    font-size: 28px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetTitle {
+    font-size: 22px;
+  }
+}
+.slotTargetTitlecategory_remoto {
+  line-height: 24px;
+}
+.button__t8Gn:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__k9KPn {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(180deg);
+  width: 20px;
+  height: 20px;
+  display: block;
+}

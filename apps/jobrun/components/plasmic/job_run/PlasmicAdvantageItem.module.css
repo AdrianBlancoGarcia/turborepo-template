@@ -1,0 +1,83 @@
+.root {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  position: relative;
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 8px;
+}
+.advantageTitleBox {
+  flex-direction: row;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+}
+.advantageTitleBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.advantageTitleBox > :global(.__wab_flex-container) > *,
+.advantageTitleBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.advantageTitleBox > :global(.__wab_flex-container) > picture > img,
+.advantageTitleBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.svg__wzqpq {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.freeBox__f8LYn {
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+  flex-direction: row;
+}
+.slotTargetAdvantageTitle {
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  color: rgba(17, 21, 37, 1);
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}
+.freeBox__nl1Ow {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: row;
+}
+.slotTargetAdvantageText {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(17, 21, 37, 0.6);
+  line-height: 1.5;
+  letter-spacing: 0em;
+}

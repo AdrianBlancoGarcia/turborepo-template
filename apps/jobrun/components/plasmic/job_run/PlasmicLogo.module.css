@@ -1,0 +1,119 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  cursor: pointer;
+}
+.rootlogo_simpleBlack {
+  justify-content: center;
+  align-items: center;
+}
+.img__e0OLq {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  height: 33px;
+  width: 300px;
+  flex-shrink: 0;
+}
+.img__e0OLq > picture > img {
+  object-fit: cover;
+}
+.img__e0OLq > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.imglogo_simpleBlack__e0OLqPt5R {
+  display: none !important;
+}
+.imglogo_icon__e0OLqEoyDj {
+  display: none !important;
+}
+.imglogo_complexWhite__e0OLqDwN8 {
+  display: none !important;
+}
+.imglogo_simpleWhite__e0OLqsY8S {
+  display: none !important;
+}
+.img__y6Fgp {
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  height: 28px;
+  width: 54px;
+  flex-shrink: 0;
+}
+.img__y6Fgp > picture > img {
+  object-fit: contain;
+}
+.img__y6Fgp > .__wab_img-spacer > img {
+  object-fit: contain;
+}
+.imglogo_simpleBlack__y6FgpPt5R {
+  display: none !important;
+}
+.imglogo_complexWhite__y6FgpDwN8 {
+  display: none !important;
+}
+.img__nzAtP {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  width: 124px;
+  height: 22.9px;
+  flex-shrink: 0;
+}
+.img__nzAtP > picture > img {
+  object-fit: cover;
+}
+.img__nzAtP > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.imglogo_simpleBlack__nzAtPpt5R {
+  display: inline-block !important;
+}
+.imglogo_icon__nzAtPEoyDj {
+  display: none !important;
+}
+.img__j07E2 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 300px;
+  height: 33px;
+  flex-shrink: 0;
+  display: none !important;
+}
+.img__j07E2 > picture > img {
+  object-fit: cover;
+}
+.img__j07E2 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.imglogo_complexWhite__j07E2DwN8 {
+  display: inline-block !important;
+}
+.img__dtuhO {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  width: 124px;
+  height: 22.9px;
+  flex-shrink: 0;
+}
+.img__dtuhO > picture > img {
+  object-fit: cover;
+}
+.img__dtuhO > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.imglogo_simpleBlack__dtuhOpt5R {
+  display: none !important;
+}
+.imglogo_simpleWhite__dtuhOsY8S {
+  display: inline-block !important;
+}

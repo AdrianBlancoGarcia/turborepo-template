@@ -1,0 +1,48 @@
+.root2 {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.root2:hover {
+  justify-content: center;
+  align-items: center;
+}
+.root2:focus {
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border-radius: 6px;
+  padding: 10px;
+  border: 3px solid #6b0df8;
+}
+.slotTargetLabel {
+  color: #111427;
+  font-weight: 500;
+  white-space: pre;
+}
+.root2:hover .slotTargetLabel {
+  color: #6b0df8;
+}
+.root2:focus .slotTargetLabel > *,
+.root2:focus .slotTargetLabel > .__wab_slot > *,
+.root2:focus .slotTargetLabel > .__wab_slot > .__wab_slot > *,
+.root2:focus .slotTargetLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.root2:focus .slotTargetLabel > picture > img,
+.root2:focus .slotTargetLabel > .__wab_slot > picture > img,
+.root2:focus .slotTargetLabel > .__wab_slot > .__wab_slot > picture > img,
+.root2:focus
+  .slotTargetLabel
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  outline: none;
+}

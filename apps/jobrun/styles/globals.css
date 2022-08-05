@@ -1,0 +1,46 @@
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/** Custom Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  padding: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: rgba(128, 128, 128, 0.2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.3);
+}

@@ -1,0 +1,72 @@
+.selectSecondLevel {
+    width: 100%;
+    min-width: 205px;
+    height: 72px;
+    border: none;
+    padding: 20px;
+    box-shadow: none;
+    background-color: rgba(38, 38, 38, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-weight: 500;
+    row-gap: 2px;
+  }
+  
+  .desplegableExperienciaCerrando {
+    display: flex;
+    flex-direction: column;
+    background-color: #363636;
+    position: relative;
+    z-index: 1;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    animation-name: cerrarDesplegableExperiencia;
+    animation-duration: 0.3s;
+  }
+  
+  .desplegableExperienciaCerrado {
+    display: none;
+  }
+  
+  .desplegableExperienciaAbierto {
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    background-color: #363636;
+    position: relative;
+    z-index: 1;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    animation-name: abrirDesplegableExperiencia;
+    animation-duration: 0.3s;
+  }
+  
+  .experienciaFilters {
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .experienciaFilters:hover {
+    background-color: #252525;
+  }
+  
+  @keyframes abrirDesplegableExperiencia {
+    from {
+      height: 0px;
+    }
+    to {
+      height: 136px;
+    }
+  }
+  
+  @keyframes cerrarDesplegableExperiencia {
+    from {
+      height: 136px;
+    }
+    to {
+      height: 0px;
+    }
+  }

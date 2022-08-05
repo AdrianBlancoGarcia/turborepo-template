@@ -1,0 +1,103 @@
+.root {
+  flex-direction: row;
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: 70px;
+  background: #4c4c4c;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 20px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 20px;
+}
+@media (max-width: 1440px) {
+  .root {
+    width: auto;
+    height: 60px;
+    display: inline-flex;
+    border-radius: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  .root {
+    width: auto;
+    display: inline-flex;
+  }
+}
+@media (max-width: 1024px) {
+  .root {
+    width: auto;
+    display: inline-flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 14px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 16px);
+    width: calc(100% + 16px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 16px;
+    margin-top: 0px;
+  }
+}
+.svg__wsxh3 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+.freeBox {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetCategoryName {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetCategoryName {
+    font-size: 14px;
+  }
+}

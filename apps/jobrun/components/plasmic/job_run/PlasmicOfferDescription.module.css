@@ -1,0 +1,44 @@
+.root {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 14px);
+  height: calc(100% + 14px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 14px;
+}
+.text {
+  display: block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(17, 21, 37, 1);
+  align-self: stretch;
+  position: relative;
+}
+.freeBox {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: row;
+}
+.slotTargetOfferDescription {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(17, 21, 37, 1);
+  line-height: 1.5;
+  letter-spacing: 0em;
+}

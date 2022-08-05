@@ -1,0 +1,21 @@
+.buttonContent {
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonContent_Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.buttonContent_Label {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: start;
+  color: rgba(189, 147, 251, 1);
+}

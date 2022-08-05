@@ -1,0 +1,254 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 224px;
+  background: #f7f7f7;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+  border-radius: 20px;
+  padding: 20px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 20px;
+}
+.root:hover {
+  background: #f0f0f0;
+  transform: scaleX(1.02) scaleY(1.02) scaleZ(1);
+}
+.freeBox__l7Lqy {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 218px;
+  overflow: hidden;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__l7Lqy > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox__l7Lqy > :global(.__wab_flex-container) > *,
+.freeBox__l7Lqy > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__l7Lqy > :global(.__wab_flex-container) > picture > img,
+.freeBox__l7Lqy
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.freeBox__tNkzd {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__tNkzd > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.freeBox__tNkzd > :global(.__wab_flex-container) > *,
+.freeBox__tNkzd > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__tNkzd > :global(.__wab_flex-container) > picture > img,
+.freeBox__tNkzd
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+.freeBox__zZuwX {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 52px;
+  padding: 0px;
+}
+.img__sosuZ {
+  object-fit: cover;
+  max-width: 100%;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+}
+.img__sosuZ > picture > img {
+  object-fit: cover;
+}
+.img__sosuZ > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__saEOp {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__saEOp > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.freeBox__saEOp > :global(.__wab_flex-container) > *,
+.freeBox__saEOp > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__saEOp > :global(.__wab_flex-container) > picture > img,
+.freeBox__saEOp
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.freeBox__mnzIb {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+.slotTargetCompanyName {
+  font-size: 21px;
+  font-weight: 600;
+  color: #0a0a0a;
+  text-align: center;
+}
+.companyData {
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  min-width: 0;
+}
+.companyData > :global(.__wab_flex-container) {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  min-width: 0;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.companyData > :global(.__wab_flex-container) > *,
+.companyData > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.companyData > :global(.__wab_flex-container) > picture > img,
+.companyData
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.slotTargetWorkers {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(73, 77, 91, 1);
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.text {
+  display: block;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 22px;
+  color: rgba(73, 77, 91, 1);
+  position: relative;
+}
+.cardDetailItem {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.cardDetailItem > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.cardDetailItem > :global(.__wab_flex-container) > *,
+.cardDetailItem > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardDetailItem > :global(.__wab_flex-container) > picture > img,
+.cardDetailItem
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.svg__guZjy {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.slotTargetLocation {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(73, 77, 91, 1);
+  line-height: 22px;
+  letter-spacing: 0em;
+}

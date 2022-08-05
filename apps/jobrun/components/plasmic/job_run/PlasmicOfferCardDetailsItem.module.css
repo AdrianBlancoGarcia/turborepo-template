@@ -1,0 +1,63 @@
+.root {
+  flex-direction: row;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 4px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+  flex-shrink: 0;
+}
+.svgtype_remote {
+  color: #6b0df8;
+  display: block;
+}
+.svgtype_ciudad {
+  display: none;
+}
+.svg__zHu1E {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+  flex-shrink: 0;
+}
+.freeBox {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetTitle {
+  font-size: 14px;
+}
+.slotTargetTitletype_remote {
+  color: #6b0df8;
+}

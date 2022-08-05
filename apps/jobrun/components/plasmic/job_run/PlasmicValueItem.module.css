@@ -1,0 +1,43 @@
+.root {
+  flex-direction: row;
+  background: rgba(255, 255, 255, 1);
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  border-radius: 82px;
+  padding: 10px 24px 10px 20px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 15px);
+  width: calc(100% + 15px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 15px;
+}
+.rootcolor_grey {
+  background: #00000008;
+}
+.svg___5WN5Q {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.slotTargetValueText {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(17, 21, 37, 1);
+  text-transform: uppercase;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}

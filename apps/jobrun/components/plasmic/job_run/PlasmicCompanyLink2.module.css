@@ -1,0 +1,148 @@
+.root {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  background: #ffffff;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 0.1s;
+  height: 40px;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.1s;
+  border-radius: 10px;
+  padding: 10px 18px;
+  border-width: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 12px;
+}
+.rootshowStartIcon {
+  padding-left: 16px;
+}
+.rootcolor_grey {
+  background: #00000008;
+}
+.rootshowEndIcon {
+  padding-right: 16px;
+}
+.rootisDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.rootshape_rounded {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 100px;
+  border-radius: 999px;
+}
+.rootshape_round {
+  border-radius: 50%;
+  padding: 12px;
+}
+.rootshape_sharp {
+  border-radius: 0px;
+}
+.rootsize_compact {
+  padding: 6px 16px;
+}
+.rootsize_minimal {
+  padding: 0px;
+}
+.rootcolor_white {
+  background: #ffffff;
+}
+.rootshape_round_size_compact {
+  padding: 6px;
+}
+.rootshape_rounded_showStartIcon {
+  padding-left: 16px;
+}
+.rootshowEndIcon_shape_rounded {
+  padding-right: 16px;
+}
+.root:hover {
+  background: #0000000d;
+}
+.root:focus-within {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  outline: none;
+}
+.root___focusVisibleWithin {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  outline: none;
+}
+.root:active {
+  background: #2e2e2b;
+}
+.startIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.startIconContainershowStartIcon {
+  display: flex;
+}
+.slotTargetStartIcon {
+  color: #ededec;
+}
+.slotTargetStartIconcolor_white {
+  color: #35290f;
+}
+.svg___1Rjqp {
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.root .contentContainer___focusVisibleWithin {
+  outline: none;
+}
+.slotTargetLabel {
+  font-size: 15px;
+  font-weight: 600;
+  color: #6b0df8;
+  line-height: 18px;
+}
+.endIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.endIconContainershowEndIcon {
+  display: flex;
+}
+.slotTargetEndIcon {
+  color: #ededec;
+}
+.slotTargetEndIconcolor_white {
+  color: #35290f;
+}
+.svg__lRZc {
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}

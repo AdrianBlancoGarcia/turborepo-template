@@ -1,0 +1,72 @@
+.selectSecondLevel {
+  width: 100%;
+  min-width: 215px;
+  height: 72px;
+  border: none;
+  padding: 20px;
+  box-shadow: none;
+  background-color: rgba(38, 38, 38, 1);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-weight: 500;
+  row-gap: 2px;
+}
+
+.desplegablePuestoCerrando {
+  display: flex;
+  flex-direction: column;
+  background-color: #363636;
+  position: relative;
+  z-index: 1;
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+  animation-name: cerrarDesplegablePuesto;
+  animation-duration: 0.3s;
+}
+
+.desplegablePuestoCerrado {
+  display: none;
+}
+
+.desplegablePuestoAbierto {
+  height: 137px;
+  display: flex;
+  flex-direction: column;
+  background-color: #363636;
+  position: relative;
+  z-index: 1;
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+  animation-name: abrirDesplegablePuesto;
+  animation-duration: 0.3s;
+}
+
+.puestoFilters {
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.puestoFilters:hover {
+  background-color: #252525;
+}
+
+@keyframes abrirDesplegablePuesto {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 137px;
+  }
+}
+
+@keyframes cerrarDesplegablePuesto {
+  from {
+    height: 137px;
+  }
+  to {
+    height: 0px;
+  }
+}

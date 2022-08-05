@@ -1,0 +1,17 @@
+.breadcrumbChildLast {
+    display: none;
+}
+
+.breadcrumbParentChild {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .breadcrumbChildLast {
+        display: flex;
+    }
+
+    .breadcrumbParentChild {
+        display: none;
+    }
+}

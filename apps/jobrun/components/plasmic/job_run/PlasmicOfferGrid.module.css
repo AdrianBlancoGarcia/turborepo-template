@@ -1,0 +1,495 @@
+.root {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+@media (max-width: 1440px) {
+  .root {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .root {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .root {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.offerCard__bpv72:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag___7BFc:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__yfEhr:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__vIo66:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__waQ5I:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__rJnQd:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__jv2Ft:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.img__kLaMo {
+  object-fit: cover;
+  max-width: 100%;
+  width: 52px;
+  height: 52px;
+}
+.img__kLaMo > picture > img {
+  object-fit: cover;
+}
+.img__kLaMo > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.offerCardDetailsItem__srvI7:global(.__wab_instance) {
+  position: relative;
+}
+.svg___7Nqjv {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__y5Wof:global(.__wab_instance) {
+  position: relative;
+}
+.svg___6I80H {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__a6GMi:global(.__wab_instance) {
+  position: relative;
+}
+.svg__i8QZx {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCard__kbZv4:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__fB3Ia:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__c6Nzf:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__q9JQx:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag___5Na7Y:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__s4SoG:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__gYRvF:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.img__mpg8Y {
+  object-fit: cover;
+  max-width: 100%;
+  width: 52px;
+  height: 52px;
+}
+.img__mpg8Y > picture > img {
+  object-fit: cover;
+}
+.img__mpg8Y > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.offerCardDetailsItem__pQtin:global(.__wab_instance) {
+  position: relative;
+}
+.svg__dfCbV {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__n1HRt:global(.__wab_instance) {
+  position: relative;
+}
+.svg___4SpuL {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__gkYfr:global(.__wab_instance) {
+  position: relative;
+}
+.svg__izjB {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCard__gsY5:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__xArnV:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__eVqY:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__p7Kpl:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__rgJt0:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__wOju:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__uFpI9:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.img__kUiPe {
+  object-fit: cover;
+  max-width: 100%;
+  width: 52px;
+  height: 52px;
+}
+.img__kUiPe > picture > img {
+  object-fit: cover;
+}
+.img__kUiPe > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.offerCardDetailsItem__vAk4U:global(.__wab_instance) {
+  position: relative;
+}
+.svg__aQs9J {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__qmWMv:global(.__wab_instance) {
+  position: relative;
+}
+.svg__o4LOi {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__wGb1S:global(.__wab_instance) {
+  position: relative;
+}
+.svg__sk3Sy {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCard___1PZoE:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__ym2M7:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__dLhHa:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__bwki:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__qrMv:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__vjsXi:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__cl5Br:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.img__hAo42 {
+  object-fit: cover;
+  max-width: 100%;
+  width: 52px;
+  height: 52px;
+}
+.img__hAo42 > picture > img {
+  object-fit: cover;
+}
+.img__hAo42 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.offerCardDetailsItem___9Eshd:global(.__wab_instance) {
+  position: relative;
+}
+.svg__vu4M {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__hnWjN:global(.__wab_instance) {
+  position: relative;
+}
+.svg__rcBdj {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__sQyyF:global(.__wab_instance) {
+  position: relative;
+}
+.svg__nSkpd {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCard__sfmUy:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__bq6Zi:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__zVm75:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag___5DsLk:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__fIwsu:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__juVih:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__dzwjk:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.img__daRx {
+  object-fit: cover;
+  max-width: 100%;
+  width: 52px;
+  height: 52px;
+}
+.img__daRx > picture > img {
+  object-fit: cover;
+}
+.img__daRx > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.offerCardDetailsItem__pttWt:global(.__wab_instance) {
+  position: relative;
+}
+.svg___00HsW {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__pd4Qz:global(.__wab_instance) {
+  position: relative;
+}
+.svg___7Fsm3 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__xRkC:global(.__wab_instance) {
+  position: relative;
+}
+.svg__eGl4Y {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCard__wiMI:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  display: flex;
+}
+.tag__dtfPy:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__rQ4Ss:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__xxmTc:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__xEZyw:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__fIlBs:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.tag__qMmr1:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.img__jsc2H {
+  object-fit: cover;
+  max-width: 100%;
+  width: 52px;
+  height: 52px;
+}
+.img__jsc2H > picture > img {
+  object-fit: cover;
+}
+.img__jsc2H > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.offerCardDetailsItem__lIOlC:global(.__wab_instance) {
+  position: relative;
+}
+.svg__tPxM {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__vwBUm:global(.__wab_instance) {
+  position: relative;
+}
+.svg__qczLt {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.offerCardDetailsItem__hdsZl:global(.__wab_instance) {
+  position: relative;
+}
+.svg___0QCK {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #242424;
+  width: 14px;
+  height: 14px;
+  display: block;
+}

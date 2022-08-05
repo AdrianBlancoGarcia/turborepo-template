@@ -1,0 +1,188 @@
+.root {
+  flex-direction: row;
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: 72px;
+  background: #262626;
+  cursor: auto;
+  overflow: hidden;
+  transition-property: background;
+  transition-duration: 1s;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 1s;
+  border-radius: 10px;
+  padding: 10px 22px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+  margin-top: 0px;
+}
+.rootisChecked {
+  width: auto;
+  background: linear-gradient(
+      119deg,
+      #f2b221 0%,
+      #f18f57 5%,
+      #9647dd 100%,
+      #6b0df8 129%,
+      rgba(106, 12, 247, 1) 251%
+    )
+    0% 0% / 100% 100% no-repeat;
+  flex-direction: row;
+  display: inline-flex;
+  border-radius: 10px;
+}
+.rootisChecked > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.rootisChecked > :global(.__wab_flex-container) > *,
+.rootisChecked > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rootisChecked > :global(.__wab_flex-container) > picture > img,
+.rootisChecked
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+  margin-top: 0px;
+}
+.freeBox___89Ztr {
+  flex-direction: row;
+  width: auto;
+  height: 42px;
+  display: flex;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.freeBox___89Ztr > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox___89Ztr > :global(.__wab_flex-container) > *,
+.freeBox___89Ztr > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___89Ztr > :global(.__wab_flex-container) > picture > img,
+.freeBox___89Ztr
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+@media (max-width: 1200px) {
+  .freeBox___89Ztr > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 4px);
+    width: calc(100% + 4px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (max-width: 1200px) {
+  .freeBox___89Ztr > :global(.__wab_flex-container) > *,
+  .freeBox___89Ztr > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox___89Ztr > :global(.__wab_flex-container) > picture > img,
+  .freeBox___89Ztr
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 4px;
+    margin-top: 0px;
+  }
+}
+.freeBox___7FZr {
+  position: absolute;
+  width: 130%;
+  height: 200%;
+  left: -21%;
+  top: -50%;
+  background: #262626;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  display: none;
+  -webkit-transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+  padding: 0px;
+}
+.freeBoxisChecked___7FZrEi9W {
+  opacity: 0;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffffffbf;
+  transform: skew(-0.057295760414500616deg, 0deg);
+  width: 35px;
+  height: 35px;
+  display: block;
+  transform-origin: top left;
+  left: auto;
+  top: auto;
+  transition-property: all;
+  transition-duration: 0.3s;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  border-radius: 41px;
+}
+@media (max-width: 1200px) {
+  .svg {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+}
+.svgisChecked {
+  color: #ffffff;
+}
+.text {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  user-select: none;
+  margin-right: 12px;
+}
+@media (max-width: 1200px) {
+  .text {
+    font-size: 16px;
+  }
+}
+.toggle:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.toggleisChecked:global(.__wab_instance) {
+  flex-shrink: 0;
+}
