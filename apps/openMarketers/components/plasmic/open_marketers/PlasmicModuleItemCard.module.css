@@ -1,0 +1,215 @@
+.root {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 0px 1px rgba(228, 229, 234, 1);
+  filter: drop-shadow(0px 4px 4.5px rgba(0, 0, 0, 0.079));
+  transform: skew(-0.057295760414500616deg, 0deg);
+  width: 100%;
+  height: 126px;
+  display: flex;
+  transform-origin: top left;
+  min-width: 200px;
+  position: relative;
+  flex-grow: 1;
+  border-radius: 20px;
+  padding: 20px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 20px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    height: auto;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
+.titleContainer {
+  flex-direction: row;
+  transform: scale(1.000000499999875, 0.9999985000008749)
+    rotate(-0.057295760416576934deg) skew(-0.1145912916467999deg, 0deg);
+  height: 100%;
+  display: flex;
+  transform-origin: top left;
+  position: relative;
+  align-self: stretch;
+  left: auto;
+  top: auto;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.titleContainer > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.titleContainer > :global(.__wab_flex-container) > *,
+.titleContainer > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.titleContainer > :global(.__wab_flex-container) > picture > img,
+.titleContainer
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .titleContainer > :global(.__wab_flex-container) {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .titleContainer > :global(.__wab_flex-container) > *,
+  .titleContainer > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .titleContainer > :global(.__wab_flex-container) > picture > img,
+  .titleContainer
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80px;
+  height: 80px;
+  max-width: 100%;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.img__nquu {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__nquu > picture > img {
+  object-fit: cover;
+}
+.img__nquu > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.moduleTitle {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 0;
+  position: relative;
+  transform: scale(1.000000499999875, 0.999999500000375)
+    rotate(-0.057295760416576934deg) skew(-0.05729570311883569deg, 0deg);
+  transform-origin: top left;
+  width: 100%;
+  min-width: 0;
+}
+.moduleTitle > :global(.__wab_flex-container) {
+  flex-direction: column;
+  min-width: 0;
+  margin-top: calc(0px - 7px);
+  height: calc(100% + 7px);
+}
+.moduleTitle > :global(.__wab_flex-container) > *,
+.moduleTitle > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.moduleTitle > :global(.__wab_flex-container) > picture > img,
+.moduleTitle
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 7px;
+}
+.slotTargetTitulo {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(16, 20, 38, 1);
+  line-height: 115%;
+  letter-spacing: -0.005em;
+}
+.detailsContainer {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.detailsContainer > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.detailsContainer > :global(.__wab_flex-container) > *,
+.detailsContainer > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.detailsContainer > :global(.__wab_flex-container) > picture > img,
+.detailsContainer
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.icon {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #696b75;
+  width: 20px;
+  height: 20px;
+  display: block;
+  overflow: hidden;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.slotTargetDetailsTitle {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #696b75;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+}

@@ -1,0 +1,26 @@
+p {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+td {
+  height: fit-content;
+  background-color: rgba(114, 93, 211, 0.08);
+  text-align: center;
+}
+
+.codeContent {
+  padding: 50px;
+  background-color: #2c2c2c;
+  color: #e2e2e2;
+  border-radius: 20px;
+}

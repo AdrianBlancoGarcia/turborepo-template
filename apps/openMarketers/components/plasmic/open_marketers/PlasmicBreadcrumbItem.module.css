@@ -1,0 +1,136 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.freeBox__gJ5A {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__gJ5A > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.freeBox__gJ5A > :global(.__wab_flex-container) > *,
+.freeBox__gJ5A > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__gJ5A > :global(.__wab_flex-container) > picture > img,
+.freeBox__gJ5A
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.freeBoxchild__gJ5Aoy3OM {
+  display: none;
+}
+.freeBoxchildLast__gJ5AjOhXw {
+  display: none;
+}
+.link {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.linkchild {
+  padding-right: 0px;
+}
+.linkchildLast {
+  padding-right: 0px;
+}
+.slotTargetBreadcrumbParent {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.svg__pTpt {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 7px;
+  height: 8px;
+  display: block;
+  flex-shrink: 0;
+}
+.freeBox__y5Or {
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  display: none;
+}
+.freeBox__y5Or > :global(.__wab_flex-container) {
+  flex-direction: row;
+  min-width: 0;
+}
+.freeBoxchild__y5Oroy3OM {
+  display: flex;
+}
+.freeBoxchildLast__y5OrjOhXw {
+  display: flex;
+}
+.freeBoxchildLast__y5OrjOhXw > :global(.__wab_flex-container) {
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.freeBoxchildLast__y5OrjOhXw > :global(.__wab_flex-container) > *,
+.freeBoxchildLast__y5OrjOhXw
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.freeBoxchildLast__y5OrjOhXw > :global(.__wab_flex-container) > picture > img,
+.freeBoxchildLast__y5OrjOhXw
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.svg___7S1F7 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 7px;
+  height: 8px;
+  display: block;
+  transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+  transform-style: preserve-3d;
+  flex-shrink: 0;
+}
+.svg___7S1F7 * {
+  transform-style: preserve-3d;
+}
+.svgchildLast___7S1F7JOhXw {
+  transform-style: preserve-3d;
+}
+.svgchildLast___7S1F7JOhXw * {
+  transform-style: preserve-3d;
+}
+.slotTargetBreadcrumbChild {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.slotTargetBreadcrumbChildLast {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}

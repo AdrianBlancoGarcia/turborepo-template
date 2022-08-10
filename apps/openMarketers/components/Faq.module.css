@@ -1,0 +1,97 @@
+.container {
+  transition: max-height 0.2s ease-out;
+  height: auto;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.questionBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+}
+
+.questionBox:hover > .question {
+  text-decoration: underline;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+
+  transition: text-decoration 0.2s normal linear;
+}
+
+.buttonClose {
+  animation: buttonClosing 0.2s normal linear;
+}
+
+.buttonOpen {
+  transform: rotate(180deg);
+}
+
+.buttonOpening {
+  animation: buttonOpening 0.2s normal linear;
+}
+
+.isOpen {
+  visibility: visible;
+  animation: bottomDown 0.2s normal linear;
+}
+
+.unmounting {
+  animation: bottomUp 0.2s normal linear;
+}
+
+.isClose {
+  display: none;
+}
+
+@keyframes buttonOpening {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes buttonClosing {
+  from {
+    transform: rotate(180deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes bottomDown {
+  from {
+    opacity: 0.2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bottomUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

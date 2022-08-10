@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@plasmicapp/host": "^1.0.68",
-    "@plasmicapp/react-web": "^0.2.100",
+    "@plasmicapp/react-web": "^0.2.104",
     "@plasmicpkgs/plasmic-embed-css": "^0.1.55",
     "isomorphic-dompurify": "^0.20.0",
     "isomorphic-unfetch": "^3.1.0",

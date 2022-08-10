@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /oferta-junior$
+Disallow: /oferta-junior-java$
+Disallow: /angular-junior-barcelona$
+Disallow: /junior-web-developest$
+
+# Host
+Host: https://open-bootcamp.com
+
+# Sitemaps
+Sitemap: https://open-bootcamp.com/sitemap.xml

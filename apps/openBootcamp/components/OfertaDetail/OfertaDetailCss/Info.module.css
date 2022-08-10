@@ -1,0 +1,123 @@
+.info{
+    margin-top: 45px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.info > div{
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 15px);
+    margin-bottom: 45px;
+}
+
+.info > div:nth-of-type(odd){
+    margin-right: 15px;
+}
+
+.info > div:nth-of-type(even){
+    margin-left: 15px;
+}
+
+.info > div > h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.info > div > p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.info > div > p:last-of-type{
+    margin-bottom: 0;
+}
+
+.info > div > ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info > div > ul > li{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #36C4BB;
+    background: rgba(54, 195, 187, 0.1);
+    border-radius: 8px;
+    margin-right: 15px;
+    display: inline-flex;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.info > div.infoAbout{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.info > div.infoAbout > div{
+    background-color: white;
+    border: 1px solid #DCDEE1;
+    padding: 25px 30px;
+    border-radius: 14px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.info > div.infoAbout > div > .infoAboutText{
+    margin-left: 25px;
+}
+
+.info > div.infoAbout > div > .infoAboutText > h2{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    color: #121625;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.info > div.infoAbout > div > .infoAboutText > span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A4E5B;
+}
+
+.info > div.infoAbout > div > svg{
+    color: #A3A6AC;
+    cursor: pointer;
+    margin-left: auto;
+    font-size: 24px;
+}
+
+.info > div.infoAbout > div > svg:hover{
+    color: black;
+}
+
+.info > div.infoAbout > div > p:nth-of-type(1){
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+@media(max-width:900px) {
+    .info > div{
+        width:100%;
+        align-items: center;
+        text-align: center;
+    }
+    .info > div:nth-of-type(odd),
+    .info > div:nth-of-type(even){
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

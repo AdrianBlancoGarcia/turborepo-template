@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "fileServerFolder": ".",
+  "fixturesFolder": "./cypress/fixtures",
+  "integrationFolder": "./cypress/integration",
+  "modifyObstructiveCode": false,
+  "supportFile": "./cypress/support/index.ts",
+  "pluginsFile": "./cypress/plugins/index.js",
+  "video": true,
+  "videosFolder": "./build/cypress/apps/campus-e2e/videos",
+  "screenshotsFolder": "./build/cypress/apps/campus-e2e/screenshots",
+  "chromeWebSecurity": false
+}

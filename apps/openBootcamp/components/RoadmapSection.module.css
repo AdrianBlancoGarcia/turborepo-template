@@ -1,0 +1,33 @@
+.RoadMapMount {
+    animation-name: mount;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+
+.RoadMapUnmount {
+    animation-name: unmount;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+}
+
+.w100 {
+    width: 100%;
+}
+
+@keyframes unmount {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+} 
+
+@keyframes mount {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+} 

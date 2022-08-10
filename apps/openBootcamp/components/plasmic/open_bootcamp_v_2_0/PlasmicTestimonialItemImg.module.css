@@ -1,0 +1,201 @@
+.root {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(242, 243, 245, 1);
+  filter: drop-shadow(0px 4px 3px rgba(16, 23, 38, 0.05))
+    drop-shadow(0px 12px 8px rgba(16, 23, 38, 0.1));
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  min-width: 0;
+  border-radius: 16px;
+}
+@media (max-width: 1440px) {
+  .root {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.root:hover {
+  transform: scaleX(1.03) scaleY(1.03) scaleZ(1);
+}
+.freeBox__qRvg8 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: stretch;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__j5C3X {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__btImY {
+  flex-direction: row;
+  background: url("https://studio.plasmic.app/static/img/placeholder.png") top
+    50% left 50% / cover repeat;
+  height: 285px;
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__btImY > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.freeBox__btImY > :global(.__wab_flex-container) > *,
+.freeBox__btImY > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__btImY > :global(.__wab_flex-container) > picture > img,
+.freeBox__btImY
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.freeBox__eawkB {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 30px;
+}
+.freeBox__eawkB > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: calc(0px - 15px);
+  height: calc(100% + 15px);
+}
+.freeBox__eawkB > :global(.__wab_flex-container) > *,
+.freeBox__eawkB > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__eawkB > :global(.__wab_flex-container) > picture > img,
+.freeBox__eawkB
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 15px;
+}
+.freeBox__e8Gbc {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  width: auto;
+  height: 25px;
+  max-width: 100%;
+  z-index: 0;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.freeBox__pLWes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  max-width: 100%;
+  overflow: hidden;
+  background: var(--token-pAiBZiPuJDzIlm);
+  flex-shrink: 0;
+  border-radius: 50px;
+  padding: 0px;
+}
+.svg__x4Gfd {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 27px;
+  height: 27px;
+  display: block;
+  align-self: center;
+  flex-shrink: 0;
+}
+.freeBox__lO9Qf {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+}
+.freeBox__lO9Qf > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.freeBox__lO9Qf > :global(.__wab_flex-container) > *,
+.freeBox__lO9Qf > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__lO9Qf > :global(.__wab_flex-container) > picture > img,
+.freeBox__lO9Qf
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 6px;
+}
+.freeBox__xBafq {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: row;
+}
+.slotTargetTitle {
+  font-family: "Inter", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: rgba(16, 20, 38, 1);
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.freeBox___8YYzh {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: row;
+}
+.slotTargetDescription {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(54, 60, 80, 1);
+  line-height: 24px;
+  letter-spacing: 0em;
+  font-style: normal;
+}

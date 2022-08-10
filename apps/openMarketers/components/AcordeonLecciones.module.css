@@ -1,0 +1,10 @@
+.transition {
+    animation-name: transitionBlock;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes transitionBlock {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}

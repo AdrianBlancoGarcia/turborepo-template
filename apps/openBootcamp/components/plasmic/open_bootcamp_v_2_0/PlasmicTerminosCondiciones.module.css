@@ -1,0 +1,161 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  min-height: 0;
+}
+.navbar:global(.__wab_instance) {
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  position: fixed;
+  flex-shrink: 0;
+}
+@media (max-width: 1024px) {
+  .navbar:global(.__wab_instance) {
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    position: fixed;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .navbar:global(.__wab_instance) {
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    position: fixed;
+    flex-shrink: 0;
+  }
+}
+.button__pzgCk:global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+  display: none;
+}
+.svg__rQFy {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg___2FU3 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.linkOb__h5B2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__k7FvA {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__dhmUl {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.linkOb___7HriD:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__jjbpB {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__hxskt {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.linkOb__jNvoX:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__zwhXs {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__eExm {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.linkOb___2Btka:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__hEumC {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__hLfA2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.button__mvc1Q:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: auto;
+  display: flex;
+}
+.svg___0IwGt {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg___3Dwv8 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.button__sqvvQ:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 145px;
+  display: flex;
+}
+.svg__uJqnQ {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg___8AlN0 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.terminosyCondiciones:global(.__wab_instance) {
+  margin: 80px 0px 0px;
+}

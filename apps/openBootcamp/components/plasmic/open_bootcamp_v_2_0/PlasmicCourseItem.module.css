@@ -1,0 +1,78 @@
+.root {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: var(--token-PS_unVUtFLPPh9);
+  box-shadow: 0px 4px 9px 0px #00000014;
+  min-width: 0;
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid var(--token-5HKBFn2cQc6ffz);
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
+.img__b6SdL {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.img__b6SdL > picture > img {
+  object-fit: cover;
+}
+.img__b6SdL > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__buPoa {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox___1434J {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.slotTargetSlot {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.freeBox__sWeHp {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.slotTargetSlot2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: var(--token-wpmEvvA57);
+}

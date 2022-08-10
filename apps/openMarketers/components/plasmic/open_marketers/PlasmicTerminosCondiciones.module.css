@@ -1,0 +1,122 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+}
+.navbar:global(.__wab_instance) {
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  position: fixed;
+  flex-shrink: 0;
+}
+.button__vhokk:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 130px;
+}
+.svg__ymZnH {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg__k4BjF {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.button__qLBaf:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 130px;
+}
+.svg__obOa1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg__eTMfq {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.linkOm__k51C6:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__gj7Jg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+.svg__d9ZWs {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+.linkOm___24VR:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg___7NjPx {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+.svg__rsjOb {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+.linkOm__fjSj0:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: auto;
+}
+.text__aTbrF {
+  text-align: center;
+}
+.svg__sYnTf {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+.svg___2AthV {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+.terminosyCondiciones:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  margin: 80px 0px 0px;
+}

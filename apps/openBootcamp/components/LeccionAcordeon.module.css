@@ -1,0 +1,228 @@
+.container {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px 0px #11182733;
+    overflow: hidden;
+    animation: container 0.25s normal linear;
+}
+
+.a{
+    color: #5A8CAB;
+}
+
+.a:hover {
+    color: #EECA48; 
+}
+
+.timeLecciones {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.titleBox {
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.timeAndButton {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.timeAndLecciones {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.timeAndWatch {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+}
+
+.questionBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.containerOpen {
+    width: 100%;
+    height: 100%;
+}
+
+.containerOpening {
+    animation: bottomDown 0.15s normal linear;
+}
+
+.containerClosing {
+    animation: bottomUp 0.15s normal linear;
+}
+
+.buttonClose {
+    animation: buttonClosing 0.15s normal linear;
+}
+
+.buttonOpen{
+    transform: rotate(180deg);
+}
+
+.buttonOpening{
+    animation: buttonOpening 0.15s normal linear;
+}
+
+.isOpen {
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9FAFB;
+    animation-name: mount;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+.unmounting {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9FAFB;
+    animation-name: unmount;
+    animation-duration: 0.33s;
+    animation-iteration-count: 1;
+}
+
+.isClose {
+    display: none;
+}
+
+.arrowVisibility {
+    visibility: hidden;
+}
+
+.titleTime {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+@keyframes mount {
+    0% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+}
+
+@keyframes unmount {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+} 
+
+@keyframes buttonOpening{
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(180deg)
+    }
+} 
+
+@keyframes buttonClosing{
+    from {
+        transform: rotate(180deg)
+    }
+
+    to {
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes bottomDown{
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+} 
+
+@keyframes container{
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bottomUp{
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .titleBox {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .titleTime {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .arrowVisibility {
+        display: none;
+    }
+}

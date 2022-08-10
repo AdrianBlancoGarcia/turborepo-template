@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://open-marketers.com
+
+# Sitemaps
+Sitemap: https://open-marketers.com/sitemap.xml

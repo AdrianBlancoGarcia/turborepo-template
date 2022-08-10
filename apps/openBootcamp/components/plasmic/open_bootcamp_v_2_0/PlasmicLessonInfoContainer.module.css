@@ -1,0 +1,88 @@
+.root {
+  flex-direction: row;
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  background: var(--token-PS_unVUtFLPPh9);
+  border-radius: 16px;
+  padding: 20px 30px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 0px;
+}
+.freeBox {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 36px);
+  width: calc(100% + 36px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 36px;
+}
+.lessonInfoChip__yTbQr:global(.__wab_instance) {
+  max-width: 100%;
+}
+.text__ulDo4 {
+  font-size: 25px;
+  color: #725dd3;
+  font-family: "Inter", sans-serif;
+  line-height: 1.2;
+}
+.text___9ZcNo {
+  color: #725dd3;
+  font-size: 25px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #979797;
+  width: 2px;
+  height: 40px;
+  display: block;
+  flex-shrink: 0;
+}
+.lessonInfoChip__f5LOx:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.text__eNiTk {
+  font-size: 25px;
+  color: #725dd3;
+  font-family: "Inter", sans-serif;
+  line-height: 1.2;
+}
+.text__soskM {
+  color: #725dd3;
+  font-size: 25px;
+}

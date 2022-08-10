@@ -1,0 +1,1183 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "cdn",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+      "projectApiToken": "W4ggFPC2KBBIj71pDxwrbn2NovDsh6hysEEWd8gFr7yDx8UIiXO1Oj7pdn6jGsoJ91oag43A6pHWGOrpDvA",
+      "projectName": "OpenBootcamp v2.0",
+      "version": "latest",
+      "cssFilePath": "plasmic/open_bootcamp_v_2_0/plasmic_open_bootcamp_v_2_0.module.css",
+      "components": [
+        {
+          "id": "N0SUR0mx8DpoE",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "-CnkElqEbFOKi",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicNavbar.tsx",
+          "importSpec": {
+            "modulePath": "Navbar.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ot9dOcHnM075j",
+          "name": "Logo",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLogo.tsx",
+          "importSpec": {
+            "modulePath": "Logo.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLogo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vMzCpGhRHn-",
+          "name": "OfferItem",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicOfferItem.tsx",
+          "importSpec": {
+            "modulePath": "OfferItem.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicOfferItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZOePmbDjbr",
+          "name": "TestimonialItem",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTestimonialItem.tsx",
+          "importSpec": {
+            "modulePath": "TestimonialItem.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTestimonialItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "k76sivAipY",
+          "name": "TerminosCondiciones",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTerminosCondiciones.tsx",
+          "importSpec": {
+            "modulePath": "../pages/terminos-condiciones.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTerminosCondiciones.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "0-D0ueYW08Q",
+          "name": "PoliticaCookies",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicPoliticaCookies.tsx",
+          "importSpec": {
+            "modulePath": "../pages/politica-cookies.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicPoliticaCookies.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Id3xfl5iXtG",
+          "name": "PoliticaPrivacidad",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicPoliticaPrivacidad.tsx",
+          "importSpec": {
+            "modulePath": "../pages/politica-privacidad.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicPoliticaPrivacidad.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "9mFkiXX_bi1k",
+          "name": "Empresas",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicEmpresas.tsx",
+          "importSpec": {
+            "modulePath": "../pages/empresas.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicEmpresas.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "BoQ7_6X7lS",
+          "name": "RoadmapItem",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapItem.tsx",
+          "importSpec": {
+            "modulePath": "RoadmapItem.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SFQJUY_7j6t",
+          "name": "Roadmap",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmap.tsx",
+          "importSpec": {
+            "modulePath": "Roadmap.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmap.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "xSj-Ozd4Dq",
+          "name": "RoadmapSection",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapSection.tsx",
+          "importSpec": {
+            "modulePath": "RoadmapSection.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Bep5CT3W1T",
+          "name": "Drawer",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicDrawer.tsx",
+          "importSpec": {
+            "modulePath": "Drawer.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicDrawer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "iOaw7i5C2By",
+          "name": "CourseLandingItem",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCourseLandingItem.tsx",
+          "importSpec": {
+            "modulePath": "CourseLandingItem.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCourseLandingItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "b5lOT72QRjzHLq",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "eep_0G2zO_A",
+          "name": "ImageTextCardItem",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicImageTextCardItem.tsx",
+          "importSpec": {
+            "modulePath": "ImageTextCardItem.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicImageTextCardItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0_B7hzne-3",
+          "name": "CourseItem",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCourseItem.tsx",
+          "importSpec": {
+            "modulePath": "CourseItem.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCourseItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "jnAfss8VOWL",
+          "name": "PoliticadeCookies",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicPoliticadeCookies.tsx",
+          "importSpec": {
+            "modulePath": "PoliticadeCookies.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicPoliticadeCookies.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Tdbl435Ypr7",
+          "name": "PoliticadePrivacidad",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicPoliticadePrivacidad.tsx",
+          "importSpec": {
+            "modulePath": "PoliticadePrivacidad.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicPoliticadePrivacidad.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Mmwxop3xQ3",
+          "name": "CourseLandingFaq",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCourseLandingFaq.tsx",
+          "importSpec": {
+            "modulePath": "CourseLandingFaq.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCourseLandingFaq.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nl-iwxSy9T",
+          "name": "BreadcrumbItem",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicBreadcrumbItem.tsx",
+          "importSpec": {
+            "modulePath": "BreadcrumbItem.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicBreadcrumbItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ekDTLgGFZZ",
+          "name": "Breadcrumb",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicBreadcrumb.tsx",
+          "importSpec": {
+            "modulePath": "Breadcrumb.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicBreadcrumb.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2Y7usthzRd",
+          "name": "ProfileImage",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicProfileImage.tsx",
+          "importSpec": {
+            "modulePath": "ProfileImage.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicProfileImage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PZVpznDmWug",
+          "name": "TestimonialsTexts",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTestimonialsTexts.tsx",
+          "importSpec": {
+            "modulePath": "TestimonialsTexts.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTestimonialsTexts.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "TnIQZSsKCQf",
+          "name": "LandingProgramacion",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingProgramacion.tsx",
+          "importSpec": {
+            "modulePath": "../pages/aprender-programar.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingProgramacion.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "HKomFaATo44",
+          "name": "LandingFrontend",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingFrontend.tsx",
+          "importSpec": {
+            "modulePath": "../pages/front-end.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingFrontend.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "a4mKAt6W_J8",
+          "name": "LandingBackend",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingBackend.tsx",
+          "importSpec": {
+            "modulePath": "../pages/back-end.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingBackend.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "MCZw6vVbPKy",
+          "name": "LinkOb",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLinkOb.tsx",
+          "importSpec": {
+            "modulePath": "LinkOb.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLinkOb.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "W52igaDMzA10w6",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "o2mPff6adwf",
+          "name": "TerminosyCondiciones",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTerminosyCondiciones.tsx",
+          "importSpec": {
+            "modulePath": "TerminosyCondiciones.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTerminosyCondiciones.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "On39uzxhyDJ",
+          "name": "LandingLeccion",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingLeccion.tsx",
+          "importSpec": {
+            "modulePath": "../pages/cursos/[slug]/[leccion].tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingLeccion.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "kMaRrdSS2k",
+          "name": "LandingCursos",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingCursos.tsx",
+          "importSpec": {
+            "modulePath": "../pages/cursos.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingCursos.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "kHevwnszsti",
+          "name": "LandingCurso",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingCurso.tsx",
+          "importSpec": {
+            "modulePath": "../pages/cursos/[slug].tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingCurso.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "doJ6n4bAQ7",
+          "name": "AccordionButton",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicAccordionButton.tsx",
+          "importSpec": {
+            "modulePath": "AccordionButton.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicAccordionButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tRL-RTbGUy_",
+          "name": "AccordionSection",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicAccordionSection.tsx",
+          "importSpec": {
+            "modulePath": "AccordionSection.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicAccordionSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CFLpNLrOTXl",
+          "name": "FooterSitemap",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicFooterSitemap.tsx",
+          "importSpec": {
+            "modulePath": "FooterSitemap.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicFooterSitemap.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hvwW6mZKEkS",
+          "name": "RoadmapTabsOp",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapTabsOp.tsx",
+          "importSpec": {
+            "modulePath": "RoadmapTabsOp.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapTabsOp.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6fZtrnBBAHf",
+          "name": "CourseListSection",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCourseListSection.tsx",
+          "importSpec": {
+            "modulePath": "CourseListSection.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCourseListSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Lxd6z2tGUzP",
+          "name": "LandingFullstack",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingFullstack.tsx",
+          "importSpec": {
+            "modulePath": "../pages/full-stack.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingFullstack.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "XjZkPKXlmtd",
+          "name": "RoadmapGrid",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapGrid.tsx",
+          "importSpec": {
+            "modulePath": "RoadmapGrid.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapGrid.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "yiML9DV_aW",
+          "name": "RoadmapGridOp",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapGridOp.tsx",
+          "importSpec": {
+            "modulePath": "RoadmapGridOp.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicRoadmapGridOp.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "I-tcTRhKpZ",
+          "name": "Accordion",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicAccordion.tsx",
+          "importSpec": {
+            "modulePath": "Accordion.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicAccordion.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "N8qcIo-HKDa",
+          "name": "LandingCap",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingCap.tsx",
+          "importSpec": {
+            "modulePath": "../pages/profesor-informatica.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLandingCap.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "g_CaIFNNnX",
+          "name": "LogoAlt",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLogoAlt.tsx",
+          "importSpec": {
+            "modulePath": "LogoAlt.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLogoAlt.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "br33Q-v40l8",
+          "name": "TestimonialsLinkedin",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTestimonialsLinkedin.tsx",
+          "importSpec": {
+            "modulePath": "TestimonialsLinkedin.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTestimonialsLinkedin.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "KTHBG3e6yhx",
+          "name": "TestimonialsDefault",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTestimonialsDefault.tsx",
+          "importSpec": {
+            "modulePath": "TestimonialsDefault.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTestimonialsDefault.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8vgCLJCzW_",
+          "name": "TableRow",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTableRow.tsx",
+          "importSpec": {
+            "modulePath": "TableRow.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicTableRow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uwKxhY1CKJL",
+          "name": "LessonGrid",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLessonGrid.tsx",
+          "importSpec": {
+            "modulePath": "LessonGrid.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLessonGrid.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "R8_ND72D7VJ",
+          "name": "LessonTable",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLessonTable.tsx",
+          "importSpec": {
+            "modulePath": "LessonTable.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLessonTable.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "OL1JBMUHpk",
+          "name": "CodeBlock",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCodeBlock.tsx",
+          "importSpec": {
+            "modulePath": "CodeBlock.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicCodeBlock.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "l1jB988kix",
+          "name": "LessonInfoChip",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLessonInfoChip.tsx",
+          "importSpec": {
+            "modulePath": "LessonInfoChip.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLessonInfoChip.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Tp8pI-iqIC",
+          "name": "LessonInfoContainer",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLessonInfoContainer.tsx",
+          "importSpec": {
+            "modulePath": "LessonInfoContainer.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicLessonInfoContainer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "BC1CTkZPHTn",
+          "name": "HeroLeccion",
+          "type": "managed",
+          "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+          "renderModuleFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicHeroLeccion.tsx",
+          "importSpec": {
+            "modulePath": "HeroLeccion.tsx"
+          },
+          "cssFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicHeroLeccion.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "3bzdKmMHkQ7KMN",
+          "name": "HamburgerIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Hamburger.tsx"
+        },
+        {
+          "id": "Ix2-73vMDr7_RT",
+          "name": "NoLockIconIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__NoLockIcon.tsx"
+        },
+        {
+          "id": "TSgwY4wyZHvI3q",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Group3.tsx"
+        },
+        {
+          "id": "6Gam-izRFby8Oa",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Group4.tsx"
+        },
+        {
+          "id": "i4jkC5OS9x",
+          "name": "ExploreIconIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__ExploreIcon.tsx"
+        },
+        {
+          "id": "QOmsQw0pu_",
+          "name": "QuestionIconIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__QuestionIcon.tsx"
+        },
+        {
+          "id": "N4DIrPBUx1",
+          "name": "DiscordIconIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__DiscordIcon.tsx"
+        },
+        {
+          "id": "vVZm8N2wdn",
+          "name": "Icon9Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon9.tsx"
+        },
+        {
+          "id": "Ep0b59wxQW",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "79RcPsTDZH",
+          "name": "OpLogoWhitesvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__OpLogoWhitesvg.tsx"
+        },
+        {
+          "id": "Zdgu4OgedE",
+          "name": "OpLogoBlacksvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__OpLogoBlacksvg.tsx"
+        },
+        {
+          "id": "uOq4ABuNhS",
+          "name": "LinkedInsvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__LinkedInsvg.tsx"
+        },
+        {
+          "id": "Ydk_hocEhI",
+          "name": "TwittersvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Twittersvg.tsx"
+        },
+        {
+          "id": "IZbwU0kHup",
+          "name": "InstagramsvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Instagramsvg.tsx"
+        },
+        {
+          "id": "5g8a3BHjPH",
+          "name": "FacebooksvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Facebooksvg.tsx"
+        },
+        {
+          "id": "ScRShSrn-QV",
+          "name": "Ellipse65Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Ellipse65.tsx"
+        },
+        {
+          "id": "WLfb3FLJt4",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "bmDQX-5_JTJ",
+          "name": "Line16Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Line16.tsx"
+        },
+        {
+          "id": "bSYNOHpEb8J",
+          "name": "Icon7Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon7.tsx"
+        },
+        {
+          "id": "anABzCRXz5D",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon8.tsx"
+        },
+        {
+          "id": "voef3TbXuTy",
+          "name": "Icon10Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon10.tsx"
+        },
+        {
+          "id": "Ju1o-WSLKb",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "vYtC9dHy2_",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector3.tsx"
+        },
+        {
+          "id": "5PskKd6AqU",
+          "name": "Vector4Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector4.tsx"
+        },
+        {
+          "id": "dyYH68_fXf",
+          "name": "Vector5Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector5.tsx"
+        },
+        {
+          "id": "ZXDs-JHwym",
+          "name": "Vector6Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector6.tsx"
+        },
+        {
+          "id": "eJfyYq8-5Y",
+          "name": "Vector7Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector7.tsx"
+        },
+        {
+          "id": "g7hnbZUVS-",
+          "name": "Icon16Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon16.tsx"
+        },
+        {
+          "id": "I0FIJgzgSF",
+          "name": "Icon17Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon17.tsx"
+        },
+        {
+          "id": "yoyOd9c2bb",
+          "name": "Icon18Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon18.tsx"
+        },
+        {
+          "id": "qiYpeOfka",
+          "name": "Icon19Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon19.tsx"
+        },
+        {
+          "id": "DJUuZGdWd7",
+          "name": "Icon20Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon20.tsx"
+        },
+        {
+          "id": "9zoYrnWQq8",
+          "name": "Ellipse66Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Ellipse66.tsx"
+        },
+        {
+          "id": "jEbZFdooP",
+          "name": "Group107Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Group107.tsx"
+        },
+        {
+          "id": "MPKmKXARKW",
+          "name": "Icon21Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon21.tsx"
+        },
+        {
+          "id": "qL7HsO8nsJ",
+          "name": "MenusvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Menusvg.tsx"
+        },
+        {
+          "id": "JSiwWwKwo6",
+          "name": "Icon22Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon22.tsx"
+        },
+        {
+          "id": "i9ODyMIYQy",
+          "name": "Icon24Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon24.tsx"
+        },
+        {
+          "id": "hKJX8YlwbG9",
+          "name": "Icon27Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon27.tsx"
+        },
+        {
+          "id": "icZS_od47y",
+          "name": "Vector8Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector8.tsx"
+        },
+        {
+          "id": "mVwYU7p2e",
+          "name": "Vector9Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector9.tsx"
+        },
+        {
+          "id": "L0hZU5Oak",
+          "name": "Icon30Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon30.tsx"
+        },
+        {
+          "id": "poRnOxEjOg",
+          "name": "Arrow1SvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Arrow1Svg.tsx"
+        },
+        {
+          "id": "koOZHLBI38",
+          "name": "Vector10Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector10.tsx"
+        },
+        {
+          "id": "caReQe-4-A",
+          "name": "Icon31Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon31.tsx"
+        },
+        {
+          "id": "HjlRLQHU2P",
+          "name": "Icon32Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon32.tsx"
+        },
+        {
+          "id": "aDS2HTetYW",
+          "name": "Vector11Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector11.tsx"
+        },
+        {
+          "id": "tlsIAHVBd4",
+          "name": "UnionIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Union.tsx"
+        },
+        {
+          "id": "_k7BZLFTdk",
+          "name": "Union2Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Union2.tsx"
+        },
+        {
+          "id": "GhQWX782d-",
+          "name": "Union3Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Union3.tsx"
+        },
+        {
+          "id": "sgrNYklYx8",
+          "name": "Union4Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Union4.tsx"
+        },
+        {
+          "id": "mNwnqx0Y83",
+          "name": "IconsvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Iconsvg.tsx"
+        },
+        {
+          "id": "UhuH78E4uB",
+          "name": "Icon34Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon34.tsx"
+        },
+        {
+          "id": "_4smdNWrLp",
+          "name": "Icon35Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon35.tsx"
+        },
+        {
+          "id": "5c0K4yOPLh",
+          "name": "Vector12Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector12.tsx"
+        },
+        {
+          "id": "l3Gahc39dO",
+          "name": "IconoCursoIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__IconoCurso.tsx"
+        },
+        {
+          "id": "lGLi04U67",
+          "name": "ReactAccordionIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__ReactAccordion.tsx"
+        },
+        {
+          "id": "xDCAXwTMp",
+          "name": "VueAccordionIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__VueAccordion.tsx"
+        },
+        {
+          "id": "A1beaoZm_",
+          "name": "AngularAccordeonsvgIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__AngularAccordeonsvg.tsx"
+        },
+        {
+          "id": "O0XiBfLP-",
+          "name": "JavaAccordionIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__JavaAccordion.tsx"
+        },
+        {
+          "id": "SKQ-aREBa",
+          "name": "PythonAccordionIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__PythonAccordion.tsx"
+        },
+        {
+          "id": "QH5uZKsKb",
+          "name": "CsharpAccordionIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__CsharpAccordion.tsx"
+        },
+        {
+          "id": "r1Ex0PcMm",
+          "name": "NodeAccordionIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__NodeAccordion.tsx"
+        },
+        {
+          "id": "Hj5fyhXhE",
+          "name": "PhpAccordionIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__PhpAccordion.tsx"
+        },
+        {
+          "id": "9t32WTzkF9",
+          "name": "Line29Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Line29.tsx"
+        },
+        {
+          "id": "O2i6sHoukJ",
+          "name": "Euro3Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Euro3.tsx"
+        },
+        {
+          "id": "1IB8E1pJEv",
+          "name": "Schedule2Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Schedule2.tsx"
+        },
+        {
+          "id": "S3dbXXT2_d",
+          "name": "Face52Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Face52.tsx"
+        },
+        {
+          "id": "F6z3Cm69cJ",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "prRNT45HDp",
+          "name": "Vector13Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector13.tsx"
+        },
+        {
+          "id": "dv5qwh0zgn",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "GuZ6N-YlNb",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "yvflDMTNHL",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon5.tsx"
+        },
+        {
+          "id": "oFCX5LlHWX",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon6.tsx"
+        },
+        {
+          "id": "8yYr7h4gxi",
+          "name": "Icon11Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Icon11.tsx"
+        },
+        {
+          "id": "Ajm2M2YGM",
+          "name": "Vector14Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector14.tsx"
+        },
+        {
+          "id": "kUWZZJ-3A8",
+          "name": "Vector15Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector15.tsx"
+        },
+        {
+          "id": "wVTm15CXg5",
+          "name": "Vector16Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Vector16.tsx"
+        },
+        {
+          "id": "jvAtkXqoI8",
+          "name": "Line37Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Line37.tsx"
+        },
+        {
+          "id": "OaGeu5iaVJ",
+          "name": "Line38Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Line38.tsx"
+        },
+        {
+          "id": "ppJGUFvcu",
+          "name": "Polygon8Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Polygon8.tsx"
+        },
+        {
+          "id": "hRNsWe6t11",
+          "name": "Union5Icon",
+          "moduleFilePath": "plasmic/open_bootcamp_v_2_0/icons/PlasmicIcon__Union5.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    },
+    {
+      "projectId": "enk3K4vZ6pmH6kVCoZJXGn",
+      "projectApiToken": "3n3SKEMyDjMJptsNvaK6yxRaa8PAgqwkfIhRbKT4ZG9SobeM3Kb5rE2pSYmbR338Z5p6vBTScOAnptZwGSbQ",
+      "projectName": "react-youtube",
+      "version": "4.0.0",
+      "cssFilePath": "plasmic/react_youtube/plasmic_react_youtube.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CHO21V9uYw",
+          "name": "YouTube",
+          "componentImportPath": "@plasmicpkgs/react-youtube"
+        }
+      ],
+      "jsBundleThemes": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "GfTNvlXE_ClRRx",
+        "name": "Screen",
+        "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+        "contextFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "qZupMSJcR-",
+        "name": "Experiment",
+        "projectId": "qJhJbLN2Wy56BDK1v9VeHg",
+        "contextFilePath": "plasmic/open_bootcamp_v_2_0/PlasmicGlobalVariant__Experiment.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.184",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.184/dist/plasmic.schema.json"
+}

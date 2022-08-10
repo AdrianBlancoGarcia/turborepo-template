@@ -1,0 +1,668 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "cdn",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "fxuAGcsah199rVCjPzGTfY",
+      "projectApiToken": "Wbn91RY5fy5r1THlZskB5h1oxcdqYQe0FD1D7bgqdA9ZFJOjy67HDXUO0t2tNaDvn8qeH7UyOm3Og9LFSg",
+      "projectName": "OpenMarketers",
+      "version": "latest",
+      "cssFilePath": "plasmic/open_marketers/plasmic_open_marketers.module.css",
+      "components": [
+        {
+          "id": "51zyLwAx5-QLk",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "uEAoMM34trbb9e",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicNavbar.tsx",
+          "importSpec": {
+            "modulePath": "Navbar.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UL0COo2QPDWZ4b",
+          "name": "Logo",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicLogo.tsx",
+          "importSpec": {
+            "modulePath": "Logo.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicLogo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "bpZukpM1tJlDbv",
+          "name": "FooterSection",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicFooterSection.tsx",
+          "importSpec": {
+            "modulePath": "FooterSection.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicFooterSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qE3YWQny7R",
+          "name": "ModuleItemCard",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicModuleItemCard.tsx",
+          "importSpec": {
+            "modulePath": "ModuleItemCard.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicModuleItemCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "LdKrHm0kiU",
+          "name": "PoliticaPrivacidad",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicPoliticaPrivacidad.tsx",
+          "importSpec": {
+            "modulePath": "../pages/politica-privacidad.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicPoliticaPrivacidad.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "yvD1Dw0CC2",
+          "name": "PoliticaCookies",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicPoliticaCookies.tsx",
+          "importSpec": {
+            "modulePath": "../pages/politica-cookies.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicPoliticaCookies.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Rs2u_HMLJ3",
+          "name": "TerminosCondiciones",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicTerminosCondiciones.tsx",
+          "importSpec": {
+            "modulePath": "../pages/terminos-condiciones.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicTerminosCondiciones.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "vWa7iGL3PEH",
+          "name": "PoliticadePrivacidad",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicPoliticadePrivacidad.tsx",
+          "importSpec": {
+            "modulePath": "PoliticadePrivacidad.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicPoliticadePrivacidad.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Mi6FGWrkThV",
+          "name": "PoliticadeCookies",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicPoliticadeCookies.tsx",
+          "importSpec": {
+            "modulePath": "PoliticadeCookies.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicPoliticadeCookies.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4AdkGHizRucc",
+          "name": "TerminosyCondiciones",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicTerminosyCondiciones.tsx",
+          "importSpec": {
+            "modulePath": "TerminosyCondiciones.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicTerminosyCondiciones.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Cjo10ZaH1Q",
+          "name": "StickyBanner",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicStickyBanner.tsx",
+          "importSpec": {
+            "modulePath": "StickyBanner.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicStickyBanner.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qwicWrMKkQ",
+          "name": "Drawer",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicDrawer.tsx",
+          "importSpec": {
+            "modulePath": "Drawer.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicDrawer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8tYRq1w4covO",
+          "name": "LandingCursos",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicLandingCursos.tsx",
+          "importSpec": {
+            "modulePath": "../pages/cursos.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicLandingCursos.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Ye9aVWVYDq",
+          "name": "CourseLandingFaq",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicCourseLandingFaq.tsx",
+          "importSpec": {
+            "modulePath": "CourseLandingFaq.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicCourseLandingFaq.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hZSDCCaX6TJ",
+          "name": "LandingCurso",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicLandingCurso.tsx",
+          "importSpec": {
+            "modulePath": "../pages/cursos/[slug].tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicLandingCurso.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "wKWKuNBIBF",
+          "name": "ProfileImage",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicProfileImage.tsx",
+          "importSpec": {
+            "modulePath": "ProfileImage.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicProfileImage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nroB0osN4U",
+          "name": "TestimonialsTexts",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicTestimonialsTexts.tsx",
+          "importSpec": {
+            "modulePath": "TestimonialsTexts.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicTestimonialsTexts.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "wW_0-pIrct",
+          "name": "AccordionSection",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicAccordionSection.tsx",
+          "importSpec": {
+            "modulePath": "AccordionSection.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicAccordionSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vthZQMbuqd",
+          "name": "Accordion",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicAccordion.tsx",
+          "importSpec": {
+            "modulePath": "Accordion.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicAccordion.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hxbR3KsEHZ",
+          "name": "BreadcrumbItem",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicBreadcrumbItem.tsx",
+          "importSpec": {
+            "modulePath": "BreadcrumbItem.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicBreadcrumbItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0LsAapnO7x",
+          "name": "Breadcrumb",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicBreadcrumb.tsx",
+          "importSpec": {
+            "modulePath": "Breadcrumb.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicBreadcrumb.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "1gULMJc0uv",
+          "name": "LinkOm",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicLinkOm.tsx",
+          "importSpec": {
+            "modulePath": "LinkOm.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicLinkOm.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-5J3QtzZy4",
+          "name": "AccordionButton",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicAccordionButton.tsx",
+          "importSpec": {
+            "modulePath": "AccordionButton.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicAccordionButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Au1qpp6vUYln",
+          "name": "Empresas",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicEmpresas.tsx",
+          "importSpec": {
+            "modulePath": "../pages/empresas.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicEmpresas.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "fJPSJOFKZX",
+          "name": "ImageTextCardItem",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicImageTextCardItem.tsx",
+          "importSpec": {
+            "modulePath": "ImageTextCardItem.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicImageTextCardItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "xxIo1oxPKF17E6",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "fxuAGcsah199rVCjPzGTfY",
+          "renderModuleFilePath": "plasmic/open_marketers/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/open_marketers/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "bSsTEcq38cO9yG",
+          "name": "AppleIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Apple.tsx"
+        },
+        {
+          "id": "pJAOoi7Ss34Eud",
+          "name": "GoogleIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Google.tsx"
+        },
+        {
+          "id": "39PedUR6e2f0hq",
+          "name": "HamburgerIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Hamburger.tsx"
+        },
+        {
+          "id": "zCFyzFT-Q4qaXx",
+          "name": "SunnyIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Sunny.tsx"
+        },
+        {
+          "id": "va5uLpiNpxMkIO",
+          "name": "HammerIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Hammer.tsx"
+        },
+        {
+          "id": "S6VdfnZdNLh28C",
+          "name": "TargetIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Target.tsx"
+        },
+        {
+          "id": "qXaDxnMBcj_lQm",
+          "name": "FastIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Fast.tsx"
+        },
+        {
+          "id": "tBJQimxoEdiiKr",
+          "name": "StrongIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Strong.tsx"
+        },
+        {
+          "id": "UkYXUwbI2PZgwF",
+          "name": "CheckIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Check.tsx"
+        },
+        {
+          "id": "6BjtADkGDUqCAj",
+          "name": "ChevronRightIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__ChevronRight.tsx"
+        },
+        {
+          "id": "bWGrtlWRmygRXr",
+          "name": "CheckCircleIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__CheckCircle.tsx"
+        },
+        {
+          "id": "9Lc7okgVgSeoiZ",
+          "name": "WandIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Wand.tsx"
+        },
+        {
+          "id": "ggop1JcMRK_Mp_",
+          "name": "TwitterIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Twitter.tsx"
+        },
+        {
+          "id": "WEiGdOf1_V-EiM",
+          "name": "GithubIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Github.tsx"
+        },
+        {
+          "id": "xKk78Y6uuuZBva",
+          "name": "LinkedinIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Linkedin.tsx"
+        },
+        {
+          "id": "dMiaCe2jb2LVBl",
+          "name": "SearchIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Search.tsx"
+        },
+        {
+          "id": "Ky9Az0d-uNQcUd",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "yeRku5or0y",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Group2.tsx"
+        },
+        {
+          "id": "971L_KWO8V",
+          "name": "NoLockIconIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__NoLockIcon.tsx"
+        },
+        {
+          "id": "NPIgsnpxTH",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Group3.tsx"
+        },
+        {
+          "id": "_8Y3qsFIqEN",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Group4.tsx"
+        },
+        {
+          "id": "f-eah_qzJxk",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "d9QzrXKtS5",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "wwW2JE778j",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "1RoGtQcigwS",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "TQBskm-NVAt",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon5.tsx"
+        },
+        {
+          "id": "CuFslScVrbs",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon6.tsx"
+        },
+        {
+          "id": "wxsItIX0yP",
+          "name": "Icon7Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon7.tsx"
+        },
+        {
+          "id": "Y8xgJZqD0f",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon8.tsx"
+        },
+        {
+          "id": "kdIICsQR9Xo",
+          "name": "Icon30Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon30.tsx"
+        },
+        {
+          "id": "gRccrQDhLn",
+          "name": "Icon13Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon13.tsx"
+        },
+        {
+          "id": "1LQtfIq6-_",
+          "name": "Icon15Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon15.tsx"
+        },
+        {
+          "id": "byqmkcrjAI",
+          "name": "Ellipse28Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Ellipse28.tsx"
+        },
+        {
+          "id": "aoeyX7jS9Z",
+          "name": "IntersectIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Intersect.tsx"
+        },
+        {
+          "id": "Eus1ht2Cop",
+          "name": "Arrow1SvgIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Arrow1Svg.tsx"
+        },
+        {
+          "id": "Qunc7PiYp0",
+          "name": "Ellipse75Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Ellipse75.tsx"
+        },
+        {
+          "id": "YikXogKYiT",
+          "name": "Vector14Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector14.tsx"
+        },
+        {
+          "id": "u5maoJ2dJs",
+          "name": "Ellipse29Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Ellipse29.tsx"
+        },
+        {
+          "id": "GAz4Dq79b-",
+          "name": "Ellipse30Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Ellipse30.tsx"
+        },
+        {
+          "id": "bZvSWSgpr",
+          "name": "ArrowDownIcon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__ArrowDown.tsx"
+        },
+        {
+          "id": "1KzpK7Po01",
+          "name": "Vector15Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector15.tsx"
+        },
+        {
+          "id": "tcn2DZ0dps",
+          "name": "Icon18Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon18.tsx"
+        },
+        {
+          "id": "nevcOZaDtn",
+          "name": "Vector16Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector16.tsx"
+        },
+        {
+          "id": "oj0747Pscj",
+          "name": "Vector17Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector17.tsx"
+        },
+        {
+          "id": "6SGxxDo1I1",
+          "name": "Vector18Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector18.tsx"
+        },
+        {
+          "id": "zVoJGVzezP",
+          "name": "Vector19Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector19.tsx"
+        },
+        {
+          "id": "P1Jh_a_zt3",
+          "name": "Vector20Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector20.tsx"
+        },
+        {
+          "id": "IZkUgTNXAd",
+          "name": "Icon19Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon19.tsx"
+        },
+        {
+          "id": "WpUc8c4-Mp",
+          "name": "Vector21Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector21.tsx"
+        },
+        {
+          "id": "B1ZKvNdoWk",
+          "name": "Vector22Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector22.tsx"
+        },
+        {
+          "id": "MB3JWB6w_F",
+          "name": "Vector23Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Vector23.tsx"
+        },
+        {
+          "id": "xjLlCvsJBdO",
+          "name": "Icon20Icon",
+          "moduleFilePath": "plasmic/open_marketers/icons/PlasmicIcon__Icon20.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Ngzoyd6gPZ8rig",
+        "name": "Screen",
+        "projectId": "fxuAGcsah199rVCjPzGTfY",
+        "contextFilePath": "plasmic/open_marketers/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.184",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.184/dist/plasmic.schema.json"
+}

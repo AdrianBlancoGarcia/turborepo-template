@@ -1,0 +1,120 @@
+.header{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.header > .headerInfo{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.header > .headerInfo > .headerInfoText{
+    margin-left: 35px;
+}
+
+.header > .headerInfo > .headerInfoText > h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #121625;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.header > .headerInfo > .headerInfoText > h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4A4E5B;
+    margin: 0;
+}
+
+.header > .headerInfo > .headerInfoText > h2 > span{
+    color: #8C909C;
+}
+
+.header > .headerButtons{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.header > .headerButtons > button{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px 35px;
+    border: 1px solid #2FB0AE;
+    cursor: pointer;
+}
+
+.header > .headerButtons > button > span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.header > .headerButtons > button > svg{
+    font-size: 20px;
+}
+
+.header > .headerButtons > button:nth-of-type(1){
+    background-color: transparent;
+    transition: all 0.5s;
+    color: #2FB0AE;
+    margin-right: 20px;
+}
+
+.header > .headerButtons > button:nth-of-type(1):hover{
+    background-color: #2FB0AE;
+    color: white; 
+}
+
+.header > .headerButtons > button:nth-of-type(1) > span{
+    margin-right: 10px;
+}
+
+.header > .headerButtons > button:nth-of-type(2){
+    background-color: #2FB0AE;
+    color: white; 
+}
+
+.header > .headerButtons > button:nth-of-type(2):hover{
+    background-color: transparent;
+    color: #2FB0AE; 
+}
+
+@media(max-width:900px) {
+    .header{
+        flex-wrap: wrap;
+    }
+    .header > .headerInfo,
+    .header > .headerButtons{
+        width: 100%;
+        justify-content: center;
+    }
+    .header > .headerButtons{
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:500px) {
+    .header > .headerInfo,
+    .header > .headerButtons{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header > .headerInfo > .headerInfoText{
+        text-align: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .header > .headerButtons > button:nth-of-type(1){
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

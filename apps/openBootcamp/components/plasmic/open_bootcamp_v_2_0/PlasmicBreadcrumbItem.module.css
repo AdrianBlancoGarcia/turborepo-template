@@ -1,0 +1,86 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.freeBox__sxUuu {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__sxUuu > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.freeBox__sxUuu > :global(.__wab_flex-container) > *,
+.freeBox__sxUuu > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__sxUuu > :global(.__wab_flex-container) > picture > img,
+.freeBox__sxUuu
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.freeBoxparent__sxUuuTagiV {
+  display: flex;
+}
+.link {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+.linkchild {
+  display: none;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 7px;
+  height: 8px;
+  display: block;
+  flex-shrink: 0;
+}
+@media (max-width: 1200px) {
+  .svg {
+    position: relative;
+    object-fit: cover;
+    max-width: 100%;
+    color: #000;
+    width: 7px;
+    height: 8px;
+    display: block;
+    flex-shrink: 0;
+  }
+}
+.svgchild {
+  display: none;
+}
+.freeBox__uNzr {
+  flex-direction: row;
+  display: none;
+}
+.freeBoxparent__uNzrTagiV {
+  display: none;
+}
+.freeBoxchild__uNzrTvYfY {
+  display: flex;
+}
+.slotTargetBreadcrumbChild {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}

@@ -1,0 +1,130 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 125px 112px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    padding: 0px;
+  }
+}
+.content {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 1216px;
+  min-width: 0;
+  padding: 0px;
+}
+.content > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 90px);
+  height: calc(100% + 90px);
+}
+.content > :global(.__wab_flex-container) > *,
+.content > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.content > :global(.__wab_flex-container) > picture > img,
+.content
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 90px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .content {
+    padding: 80px 25px 25px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .content > :global(.__wab_flex-container) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.sectionHeading {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__b4Wor {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotTargetCourseText {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetCourseText {
+    font-size: 32px;
+    text-align: left;
+    line-height: 50px;
+  }
+}
+.freeBox___6Qvun {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.cta {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.button__ifSyp:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__pa48A {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg__wSbfT {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}

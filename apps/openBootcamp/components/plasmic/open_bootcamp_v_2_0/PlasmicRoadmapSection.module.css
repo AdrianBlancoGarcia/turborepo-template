@@ -1,0 +1,50 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.roadmap__kty22:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.button___4OdCx:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: auto;
+  align-self: auto;
+}
+.svg__htOxz {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg__a84Rl {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.img__fbfXv {
+  position: relative;
+  object-fit: fill;
+  max-width: 100%;
+  width: 4px;
+  height: 100%;
+  display: block !important;
+  left: auto;
+  top: auto;
+  min-height: 0;
+}
+.img__fbfXv > picture > img {
+  object-fit: fill;
+}
+.img__fbfXv > .__wab_img-spacer > img {
+  object-fit: fill;
+}

@@ -1,0 +1,1862 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 0px;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+  padding: 0px;
+}
+@media (max-width: 1024px) {
+  .root {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.rootroadmap_principiante {
+  opacity: 1;
+  height: auto;
+  overflow: visible;
+}
+.rootroadmap_php {
+  opacity: 1;
+  height: auto;
+}
+.rootroadmap_cSharp {
+  opacity: 1;
+  height: auto;
+}
+.rootroadmap_node {
+  opacity: 1;
+  height: auto;
+}
+.rootroadmap_frontend {
+  opacity: 1;
+  height: auto;
+  overflow: visible;
+}
+.rootroadmap_backend {
+  opacity: 1;
+  height: auto;
+  overflow: visible;
+}
+.rootroadmap_fullstack {
+  opacity: 1;
+  height: auto;
+  overflow: visible;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .rootroadmap_fullstack {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.rootroadmap_angular {
+  height: auto;
+  opacity: 1;
+}
+@media (max-width: 1024px) {
+  .rootroadmap_angular {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.rootroadmap_vueJs {
+  opacity: 1;
+  height: auto;
+}
+.rootroadmap_react {
+  opacity: 1;
+  height: auto;
+}
+.rootroadmap_java {
+  height: auto;
+  opacity: 1;
+}
+.rootroadmap_python {
+  opacity: 1;
+  height: auto;
+}
+.freeBox__ntVU {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  top: 0px;
+  left: 0%;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px 0px 58px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_principiante__ntVUf8D5H {
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_frontend__ntVUyfjr3 {
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_backend__ntVUmbezb {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_fullstack__ntVU69Wii {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_angular__ntVUVa33Z {
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_vueJs__ntVUhPtI {
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    min-width: 0;
+  }
+}
+.freeBox__sXqd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px 0px 58px;
+}
+@media (max-width: 1024px) {
+  .freeBox__sXqd {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__sXqd {
+    padding-left: 9px;
+    padding-right: 0px;
+  }
+}
+.freeBoxroadmap_principiante__sXqdF8D5H {
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_principiante__sXqdF8D5H {
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_principiante__sXqdF8D5H {
+    width: 21px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 0px 0px 58px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_php__sXqdDAi4A {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_cSharp__sXqd5LYa {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_node__sXqdo8Qds {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 26px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_frontend__sXqdyfjr3 {
+    width: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_frontend__sXqdyfjr3 {
+    width: 21px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-row-gap: 0px;
+    flex-shrink: 0;
+    min-height: 0;
+    padding: 0px 0px 58px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_backend__sXqdMbezb {
+    width: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_backend__sXqdMbezb {
+    width: 21px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-row-gap: 0px;
+    flex-shrink: 0;
+    min-height: 0;
+    padding: 0px 0px 58px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_fullstack__sXqd69Wii {
+    width: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_fullstack__sXqd69Wii {
+    width: 21px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-row-gap: 0px;
+    flex-shrink: 0;
+    min-height: 0;
+    padding: 0px 0px 58px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_angular__sXqdVa33Z {
+    width: 21px;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    display: flex;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_vueJs__sXqdhPtI {
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 21px;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_react__sXqdoEl0J {
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 21px;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_java__sXqdpb7Ya {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_python__sXqdskZi {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+.dottedLine {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-CVazqwRPi);
+  height: 100%;
+  width: 1em;
+  flex-shrink: 0;
+  min-height: 0;
+  display: block;
+}
+@media (max-width: 1024px) {
+  .dottedLineroadmap_principiante {
+    flex-grow: 1;
+  }
+}
+.dottedLineroadmap_fullstack {
+  display: block;
+}
+@media (max-width: 1024px) {
+  .dottedLineroadmap_angular {
+    display: block;
+  }
+}
+.dottedLineroadmap_vueJs {
+  color: var(--token-CVazqwRPi);
+}
+.freeBox___3Rbwg {
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  top: 0px;
+  left: 0px;
+  mix-blend-mode: screen;
+  background: none;
+  align-self: center;
+  min-width: 0;
+  min-height: 0;
+  display: none;
+  padding: 0px 0px 58px;
+}
+@media (max-width: 1024px) {
+  .freeBox___3Rbwg {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 11px;
+    padding-right: 11px;
+    left: auto;
+    top: auto;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox___3Rbwg {
+    padding-left: 9px;
+    padding-right: 0px;
+    left: auto;
+    top: auto;
+  }
+}
+.freeBoxroadmap_principiante___3RbwgF8D5H {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_principiante___3RbwgF8D5H {
+    width: 25px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-row-gap: 0px;
+    flex-shrink: 0;
+    min-height: 0;
+    padding: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_principiante___3RbwgF8D5H {
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 58px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_frontend___3Rbwgyfjr3 {
+    width: 25px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-row-gap: 0px;
+    flex-shrink: 0;
+    min-height: 0;
+    display: none;
+    padding: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_frontend___3Rbwgyfjr3 {
+    width: 25px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-row-gap: 0px;
+    flex-shrink: 0;
+    min-height: 0;
+    padding: 0px 0px 58px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_backend___3RbwgMbezb {
+    width: 25px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-row-gap: 0px;
+    flex-shrink: 0;
+    min-height: 0;
+    padding: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_backend___3RbwgMbezb {
+    width: 25px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-row-gap: 0px;
+    flex-shrink: 0;
+    min-height: 0;
+    padding: 0px 0px 58px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_fullstack___3Rbwg69Wii {
+    width: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBoxroadmap_fullstack___3Rbwg69Wii {
+    width: 25px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-row-gap: 0px;
+    flex-shrink: 0;
+    min-height: 0;
+    display: none;
+    padding: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_angular___3RbwgVa33Z {
+    width: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_vueJs___3RbwghPtI {
+    padding-left: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    flex-shrink: 0;
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .freeBoxroadmap_react___3RbwgoEl0J {
+    width: 25px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    flex-shrink: 0;
+    display: none;
+  }
+}
+.img__cAmlM {
+  position: relative;
+  object-fit: fill;
+  max-width: 100%;
+  width: 4px;
+  height: 100%;
+  display: block !important;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+  min-height: 0;
+}
+.img__cAmlM > picture > img {
+  object-fit: fill;
+}
+.img__cAmlM > .__wab_img-spacer > img {
+  object-fit: fill;
+}
+.freeBox___6PnSe {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 60px 0px;
+}
+.freeBox___6PnSe > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+}
+@media (max-width: 1024px) {
+  .freeBox___6PnSe > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 15px);
+    height: calc(100% + 15px);
+  }
+}
+@media (max-width: 1024px) {
+  .freeBox___6PnSe > :global(.__wab_flex-container) > *,
+  .freeBox___6PnSe > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox___6PnSe > :global(.__wab_flex-container) > picture > img,
+  .freeBox___6PnSe
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+.roadmapItem__aZqI:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_principiante__aZqIF8D5H:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_php__aZqIDAi4A:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_cSharp__aZqI5LYa:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_node__aZqIo8Qds:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_frontend__aZqIyfjr3:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_backend__aZqIMbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack__aZqI69Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_angular__aZqIVa33Z:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_vueJs__aZqIhPtI:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_react__aZqIoEl0J:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_java__aZqIpb7Ya:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_python__aZqIskZi:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.svg__bmMnd {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.svgroadmap_principiante__bmMndF8D5H {
+  color: #5a9cd9;
+}
+.svgroadmap_php__bmMndDAi4A {
+  color: #5a9cd9;
+}
+.svgroadmap_cSharp__bmMnd5LYa {
+  color: #5a9cd9;
+}
+.svgroadmap_node__bmMndo8Qds {
+  color: #5a9cd9;
+}
+.svgroadmap_frontend__bmMndyfjr3 {
+  color: #54a2d8;
+}
+.svgroadmap_backend__bmMndMbezb {
+  color: #5a9cd9;
+}
+.svgroadmap_fullstack__bmMnd69Wii {
+  color: #678dd9;
+}
+.svgroadmap_angular__bmMndVa33Z {
+  color: #5a9cd9;
+}
+.svgroadmap_vueJs__bmMndhPtI {
+  color: #5a9cd9;
+}
+.svgroadmap_react__bmMndoEl0J {
+  color: #5a9cd9;
+}
+.svgroadmap_java__bmMndpb7Ya {
+  color: #5a9cd9;
+}
+.svgroadmap_python__bmMndskZi {
+  color: #5a9cd9;
+}
+.svg__zQPa {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #5a9cd9;
+  display: block;
+}
+.svgroadmap_principiante__zQPaF8D5H {
+  color: #5a9cd9;
+}
+.svgroadmap_php__zQPaDAi4A {
+  color: #5a9cd9;
+}
+.svgroadmap_cSharp__zQPa5LYa {
+  color: #5a9cd9;
+}
+.svgroadmap_node__zQPao8Qds {
+  color: #5a9cd9;
+}
+.svgroadmap_angular__zQPaVa33Z {
+  color: #5a9cd9;
+}
+.svgroadmap_vueJs__zQPahPtI {
+  color: #5a9cd9;
+}
+.svgroadmap_react__zQPaoEl0J {
+  color: #5a9cd9;
+}
+.svgroadmap_java__zQPapb7Ya {
+  color: #5a9cd9;
+}
+.svgroadmap_python__zQPaskZi {
+  color: #5a9cd9;
+}
+.img__mWp73 {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__mWp73 > picture > img {
+  object-fit: cover;
+}
+.img__mWp73 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_cSharp__foGeR5LYa {
+  padding-bottom: 0px;
+}
+.textroadmap_backend__foGeRmbezb {
+  height: auto;
+}
+.textroadmap_fullstack__foGeR69Wii {
+  height: auto;
+}
+.roadmapItem__veN97:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_principiante__veN97F8D5H:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_php__veN97DAi4A:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_cSharp__veN975LYa:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_node__veN97O8Qds:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_backend__veN97Mbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack__veN9769Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_angular__veN97Va33Z:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_vueJs__veN97HPtI:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_react__veN97OEl0J:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_java__veN97Pb7Ya:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_python__veN97SkZi:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.svg__oDza {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.svgroadmap_principiante__oDzaF8D5H {
+  color: #39c2d6;
+}
+.svgroadmap_php__oDzaDAi4A {
+  color: #39c2d6;
+}
+.svgroadmap_cSharp__oDza5LYa {
+  color: #39c2d6;
+}
+.svgroadmap_node__oDzao8Qds {
+  color: #39c2d6;
+}
+.svgroadmap_frontend__oDzayfjr3 {
+  color: #30ccd4;
+}
+.svgroadmap_backend__oDzaMbezb {
+  color: #39c2d6;
+}
+.svgroadmap_fullstack__oDza69Wii {
+  color: #50a6d7;
+}
+.svgroadmap_angular__oDzaVa33Z {
+  color: #39c2d6;
+}
+.svgroadmap_vueJs__oDzahPtI {
+  color: #39c2d6;
+}
+.svgroadmap_react__oDzaoEl0J {
+  color: #39c2d6;
+}
+.svgroadmap_java__oDzapb7Ya {
+  color: #39c2d6;
+}
+.svgroadmap_python__oDzaskZi {
+  color: #39c2d6;
+}
+.svg__m3G2F {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #39c2d6;
+  display: block;
+}
+.svgroadmap_principiante__m3G2FF8D5H {
+  color: #39c2d6;
+}
+.svgroadmap_php__m3G2FDAi4A {
+  color: #39c2d6;
+}
+.svgroadmap_cSharp__m3G2F5LYa {
+  color: #39c2d6;
+}
+.svgroadmap_node__m3G2Fo8Qds {
+  color: #39c2d6;
+}
+.svgroadmap_angular__m3G2FVa33Z {
+  color: #39c2d6;
+}
+.svgroadmap_vueJs__m3G2FhPtI {
+  color: #39c2d6;
+}
+.svgroadmap_react__m3G2FoEl0J {
+  color: #39c2d6;
+}
+.svgroadmap_java__m3G2Fpb7Ya {
+  color: #39c2d6;
+}
+.svgroadmap_python__m3G2FskZi {
+  color: #39c2d6;
+}
+.img__zPuG2 {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__zPuG2 > picture > img {
+  object-fit: cover;
+}
+.img__zPuG2 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_python__qmReSkZi {
+  height: auto;
+}
+.textroadmap_principiante__kkht1F8D5H {
+  margin-bottom: 0px;
+}
+.roadmapItem__acWrn:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_principiante__acWrnF8D5H:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_php__acWrnDAi4A:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_cSharp__acWrn5LYa:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_node__acWrno8Qds:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_backend__acWrnMbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack__acWrn69Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_angular__acWrnVa33Z:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_vueJs__acWrnhPtI:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_java__acWrnpb7Ya:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_python__acWrnskZi:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.svg__zsvqS {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.svgroadmap_principiante__zsvqSf8D5H {
+  color: #25e0cf;
+}
+.svgroadmap_php__zsvqSdAi4A {
+  color: #25e0cf;
+}
+.svgroadmap_cSharp__zsvqS5LYa {
+  color: #25e0cf;
+}
+.svgroadmap_node__zsvqSo8Qds {
+  color: #25e0cf;
+}
+.svgroadmap_frontend__zsvqSyfjr3 {
+  color: #2ae2c9;
+}
+.svgroadmap_backend__zsvqSmbezb {
+  color: #25e0cf;
+}
+.svgroadmap_fullstack__zsvqS69Wii {
+  color: #3bc0d5;
+}
+.svgroadmap_angular__zsvqSVa33Z {
+  color: #25e0cf;
+}
+.svgroadmap_vueJs__zsvqShPtI {
+  color: #25e0cf;
+}
+.svgroadmap_react__zsvqSoEl0J {
+  color: #25e0cf;
+}
+.svgroadmap_java__zsvqSpb7Ya {
+  color: #25e0cf;
+}
+.svgroadmap_python__zsvqSskZi {
+  color: #25e0cf;
+}
+.svg__sIp9T {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #25e0cf;
+  display: block;
+}
+.svgroadmap_principiante__sIp9Tf8D5H {
+  color: #25e0cf;
+}
+.svgroadmap_php__sIp9TdAi4A {
+  color: #25e0cf;
+}
+.svgroadmap_cSharp__sIp9T5LYa {
+  color: #25e0cf;
+}
+.svgroadmap_node__sIp9To8Qds {
+  color: #25e0cf;
+}
+.svgroadmap_angular__sIp9TVa33Z {
+  color: #25e0cf;
+}
+.svgroadmap_vueJs__sIp9ThPtI {
+  color: #25e0cf;
+}
+.svgroadmap_react__sIp9ToEl0J {
+  color: #25e0cf;
+}
+.svgroadmap_java__sIp9Tpb7Ya {
+  color: #25e0cf;
+}
+.svgroadmap_python__sIp9TskZi {
+  color: #25e0cf;
+}
+.img__wutqy {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__wutqy > picture > img {
+  object-fit: cover;
+}
+.img__wutqy > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.text__t955 {
+  height: auto;
+}
+.roadmapItem__x83TI:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_principiante__x83TIf8D5H:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_php__x83TIdAi4A:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_cSharp__x83TI5LYa:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_node__x83TIo8Qds:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_backend__x83TImbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack__x83TI69Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_angular__x83TIVa33Z:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_vueJs__x83TIhPtI:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_react__x83TIoEl0J:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_java__x83TIpb7Ya:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_python__x83TIskZi:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.svg__t0C9 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.svgroadmap_principiante__t0C9F8D5H {
+  color: #34e6c0;
+}
+.svgroadmap_php__t0C9DAi4A {
+  color: #34e6c0;
+}
+.svgroadmap_cSharp__t0C95LYa {
+  color: #34e6c0;
+}
+.svgroadmap_node__t0C9O8Qds {
+  color: #34e6c0;
+}
+.svgroadmap_frontend__t0C9Yfjr3 {
+  color: #3be9b9;
+}
+.svgroadmap_backend__t0C9Mbezb {
+  color: #34e6c0;
+}
+.svgroadmap_fullstack__t0C969Wii {
+  color: #25d9d3;
+}
+.svgroadmap_angular__t0C9Va33Z {
+  color: #34e6c0;
+}
+.svgroadmap_vueJs__t0C9HPtI {
+  color: #34e6c0;
+}
+.svgroadmap_react__t0C9OEl0J {
+  color: #34e6c0;
+}
+.svgroadmap_java__t0C9Pb7Ya {
+  color: #34e6c0;
+}
+.svgroadmap_python__t0C9SkZi {
+  color: #34e6c0;
+}
+.svg___5VQA {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #34e6c0;
+  display: block;
+}
+.svgroadmap_principiante___5VQAf8D5H {
+  color: #34e6c0;
+}
+.svgroadmap_php___5VQAdAi4A {
+  color: #34e6c0;
+}
+.svgroadmap_cSharp___5VQA5LYa {
+  color: #34e6c0;
+}
+.svgroadmap_node___5VQAo8Qds {
+  color: #34e6c0;
+}
+.svgroadmap_angular___5VQAVa33Z {
+  color: #34e6c0;
+}
+.svgroadmap_vueJs___5VQAhPtI {
+  color: #34e6c0;
+}
+.svgroadmap_react___5VQAoEl0J {
+  color: #34e6c0;
+}
+.svgroadmap_java___5VQApb7Ya {
+  color: #34e6c0;
+}
+.svgroadmap_python___5VQAskZi {
+  color: #34e6c0;
+}
+.img__iQxyE {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__iQxyE > picture > img {
+  object-fit: cover;
+}
+.img__iQxyE > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_php___9ACfLdAi4A {
+  width: auto;
+}
+.roadmapItem___5JowI:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_php___5JowIdAi4A:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_cSharp___5JowI5LYa:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_node___5JowIo8Qds:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_backend___5JowImbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack___5JowI69Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_angular___5JowIVa33Z:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_vueJs___5JowIhPtI:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_react___5JowIoEl0J:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_java___5JowIpb7Ya:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_python___5JowIskZi:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.svg__xirld {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.svgroadmap_principiante__xirldf8D5H {
+  color: #44ecb1;
+}
+.svgroadmap_php__xirlddAi4A {
+  color: #44ecb1;
+}
+.svgroadmap_cSharp__xirld5LYa {
+  color: #44ecb1;
+}
+.svgroadmap_node__xirlDo8Qds {
+  color: #44ecb1;
+}
+.svgroadmap_frontend__xirlDyfjr3 {
+  color: #4cefa8;
+}
+.svgroadmap_backend__xirldmbezb {
+  color: #44ecb1;
+}
+.svgroadmap_fullstack__xirld69Wii {
+  color: #2ae2ca;
+}
+.svgroadmap_angular__xirldVa33Z {
+  color: #44ecb1;
+}
+.svgroadmap_vueJs__xirlDhPtI {
+  color: #44ecb1;
+}
+.svgroadmap_react__xirlDoEl0J {
+  color: #44ecb1;
+}
+.svgroadmap_java__xirlDpb7Ya {
+  color: #44ecb1;
+}
+.svgroadmap_python__xirlDskZi {
+  color: #44ecb1;
+}
+.svg__uhAOj {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #44ecb1;
+  display: block;
+}
+.svgroadmap_principiante__uhAOjF8D5H {
+  color: #44ecb1;
+}
+.svgroadmap_php__uhAOjDAi4A {
+  color: #44ecb1;
+}
+.svgroadmap_cSharp__uhAOj5LYa {
+  color: #44ecb1;
+}
+.svgroadmap_node__uhAOjo8Qds {
+  color: #44ecb1;
+}
+.svgroadmap_angular__uhAOjVa33Z {
+  color: #44ecb1;
+}
+.svgroadmap_vueJs__uhAOjhPtI {
+  color: #44ecb1;
+}
+.svgroadmap_react__uhAOjoEl0J {
+  color: #44ecb1;
+}
+.svgroadmap_java__uhAOjpb7Ya {
+  color: #44ecb1;
+}
+.svgroadmap_python__uhAOjskZi {
+  color: #44ecb1;
+}
+.img__fSFgJ {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__fSFgJ > picture > img {
+  object-fit: cover;
+}
+.img__fSFgJ > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_python__cTwE9SkZi {
+  height: auto;
+}
+.textroadmap_vueJs__qpxp2HPtI {
+  height: auto;
+}
+.textroadmap_react__qpxp2OEl0J {
+  width: auto;
+}
+.roadmapItem__xUiWp:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_php__xUiWpDAi4A:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_cSharp__xUiWp5LYa:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_node__xUiWpo8Qds:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_frontend__xUiWpyfjr3:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_backend__xUiWpMbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack__xUiWp69Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_angular__xUiWpVa33Z:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_vueJs__xUiWphPtI:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_react__xUiWpoEl0J:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_java__xUiWppb7Ya:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_python__xUiWpskZi:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.svg___5TdyN {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.svgroadmap_principiante___5TdyNf8D5H {
+  color: #61f093;
+}
+.svgroadmap_php___5TdyNdAi4A {
+  color: #61f093;
+}
+.svgroadmap_cSharp___5TdyN5LYa {
+  color: #61f093;
+}
+.svgroadmap_node___5TdyNo8Qds {
+  color: #61f093;
+}
+.svgroadmap_frontend___5TdyNyfjr3 {
+  color: #81f071;
+}
+.svgroadmap_backend___5TdyNmbezb {
+  color: #61f093;
+}
+.svgroadmap_fullstack___5TdyN69Wii {
+  color: #34e6c0;
+}
+.svgroadmap_angular___5TdyNVa33Z {
+  color: #61f093;
+}
+.svgroadmap_vueJs___5TdyNhPtI {
+  color: #61f093;
+}
+.svgroadmap_react___5TdyNoEl0J {
+  color: #61f093;
+}
+.svgroadmap_java___5TdyNpb7Ya {
+  color: #61f093;
+}
+.svgroadmap_python___5TdyNskZi {
+  color: #61f093;
+}
+.svg__asUOb {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #61f093;
+  display: block;
+}
+.svgroadmap_principiante__asUObF8D5H {
+  color: #61f093;
+}
+.svgroadmap_php__asUObDAi4A {
+  color: #61f093;
+}
+.svgroadmap_cSharp__asUOb5LYa {
+  color: #61f093;
+}
+.svgroadmap_node__asUObo8Qds {
+  color: #61f093;
+}
+.svgroadmap_angular__asUObVa33Z {
+  color: #61f093;
+}
+.svgroadmap_vueJs__asUObhPtI {
+  color: #61f093;
+}
+.svgroadmap_react__asUOboEl0J {
+  color: #61f093;
+}
+.svgroadmap_java__asUObpb7Ya {
+  color: #61f093;
+}
+.svgroadmap_python__asUObskZi {
+  color: #61f093;
+}
+.img__i4NSe {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__i4NSe > picture > img {
+  object-fit: cover;
+}
+.img__i4NSe > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_cSharp__iwSUn5LYa {
+  padding-right: 0px;
+}
+.textroadmap_java__iwSUnpb7Ya {
+  height: auto;
+}
+.textroadmap_angular__xqBqgVa33Z {
+  padding-bottom: 0px;
+}
+.textroadmap_python__xqBqGskZi {
+  padding-right: 0px;
+}
+.text__jYrAe {
+  width: auto;
+}
+.roadmapItem__oiJuf:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_php__oiJufDAi4A:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: flex;
+}
+.roadmapItemroadmap_cSharp__oiJuf5LYa:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.roadmapItemroadmap_node__oiJufo8Qds:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_frontend__oiJufyfjr3:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.roadmapItemroadmap_backend__oiJufMbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack__oiJuf69Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_angular__oiJufVa33Z:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.roadmapItemroadmap_vueJs__oiJufhPtI:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.roadmapItemroadmap_react__oiJufoEl0J:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.roadmapItemroadmap_java__oiJufpb7Ya:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.roadmapItemroadmap_python__oiJufskZi:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: flex;
+}
+.line2 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.line2roadmap_principiante {
+  color: #44ecb1;
+}
+.line2roadmap_php {
+  color: #44ecb1;
+}
+.line2roadmap_node {
+  color: #44ecb1;
+}
+.line2roadmap_frontend {
+  color: #4cefa8;
+}
+.line2roadmap_backend {
+  color: #44ecb1;
+}
+.line2roadmap_fullstack {
+  color: #95f15d;
+}
+.line2roadmap_python {
+  color: #44ecb1;
+}
+.svg__caiG6 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #44ecb1;
+  display: block;
+}
+.svgroadmap_principiante__caiG6F8D5H {
+  color: #44ecb1;
+}
+.svgroadmap_php__caiG6DAi4A {
+  color: #44ecb1;
+}
+.svgroadmap_node__caiG6O8Qds {
+  color: #44ecb1;
+}
+.svgroadmap_fullstack__caiG669Wii {
+  color: #95f15d;
+}
+.svgroadmap_python__caiG6SkZi {
+  color: #44ecb1;
+}
+.img__xUdmH {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__xUdmH > picture > img {
+  object-fit: cover;
+}
+.img__xUdmH > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_backend__vvs6Fmbezb {
+  padding-left: 0px;
+}
+.roadmapItem___3HZiw:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_principiante___3HZiwf8D5H:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.roadmapItemroadmap_node___3HZiWo8Qds:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: flex;
+}
+.roadmapItemroadmap_frontend___3HZiWyfjr3:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_backend___3HZiwmbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack___3HZiw69Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_angular___3HZiwVa33Z:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.line3 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.line3roadmap_principiante {
+  color: #61f093;
+}
+.line3roadmap_node {
+  color: #61f093;
+}
+.line3roadmap_frontend {
+  color: #81f071;
+}
+.line3roadmap_backend {
+  color: #61f093;
+}
+.line3roadmap_fullstack {
+  color: #b8f15d;
+}
+.svg__tJrY {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #61f093;
+  display: block;
+}
+.svgroadmap_principiante__tJrYf8D5H {
+  color: #61f093;
+}
+.svgroadmap_node__tJrYo8Qds {
+  color: #61f093;
+}
+.svgroadmap_fullstack__tJrY69Wii {
+  color: #b8f15d;
+}
+.img__woRe2 {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__woRe2 > picture > img {
+  object-fit: cover;
+}
+.img__woRe2 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_angular__kRPsgVa33Z {
+  padding-bottom: 0px;
+}
+.text__eDWwz {
+  width: auto;
+}
+.textroadmap_node__eDWwzo8Qds {
+  width: auto;
+}
+.roadmapItem___0Aaw9:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_frontend___0Aaw9Yfjr3:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.roadmapItemroadmap_backend___0Aaw9Mbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack___0Aaw969Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.line4 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.line4roadmap_principiante {
+  color: #44ecb1;
+}
+.line4roadmap_frontend {
+  color: #4cefa8;
+}
+.line4roadmap_backend {
+  color: #44ecb1;
+}
+.line4roadmap_fullstack {
+  color: #cbea3d;
+}
+.svg___8WwyD {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #44ecb1;
+  display: block;
+}
+.svgroadmap_principiante___8WwyDf8D5H {
+  color: #44ecb1;
+}
+.svgroadmap_fullstack___8WwyD69Wii {
+  color: #cbea3d;
+}
+.img__xFvTy {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__xFvTy > picture > img {
+  object-fit: cover;
+}
+.img__xFvTy > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_backend___5CMiFmbezb {
+  padding-left: 0px;
+}
+.textroadmap_fullstack__nF9Oq69Wii {
+  width: auto;
+}
+.roadmapItem___8YfYp:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_frontend___8YfYpyfjr3:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_backend___8YfYpMbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack___8YfYp69Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_angular___8YfYpVa33Z:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.line5 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.line5roadmap_principiante {
+  color: #61f093;
+}
+.line5roadmap_frontend {
+  color: #81f071;
+}
+.line5roadmap_backend {
+  color: #61f093;
+}
+.line5roadmap_fullstack {
+  color: #e4f240;
+}
+.svg__fgyR {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #61f093;
+  display: block;
+}
+.svgroadmap_principiante__fgyRf8D5H {
+  color: #61f093;
+}
+.svgroadmap_fullstack__fgyR69Wii {
+  color: #e4f240;
+}
+.img__eqXl9 {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__eqXl9 > picture > img {
+  object-fit: cover;
+}
+.img__eqXl9 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_angular__hxcFVa33Z {
+  padding-bottom: 0px;
+}
+.text___5UQr0 {
+  width: auto;
+}
+.textroadmap_fullstack___5UQr069Wii {
+  width: auto;
+}
+.roadmapItem__m9PYp:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_frontend__m9PYpyfjr3:global(.__wab_instance) {
+  flex-shrink: 0;
+  display: none;
+}
+.roadmapItemroadmap_backend__m9PYpMbezb:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.roadmapItemroadmap_fullstack__m9PYp69Wii:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.line6 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  color: var(--token-rURwa59QG9tAvf);
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 1em;
+}
+.line6roadmap_principiante {
+  color: #44ecb1;
+}
+.line6roadmap_frontend {
+  color: #4cefa8;
+}
+.line6roadmap_backend {
+  color: #44ecb1;
+}
+.line6roadmap_fullstack {
+  color: #d9e463;
+}
+.svg__wliyF {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  color: #44ecb1;
+  display: block;
+}
+.svgroadmap_principiante__wliyFf8D5H {
+  color: #44ecb1;
+}
+.svgroadmap_fullstack__wliyF69Wii {
+  color: #d9e463;
+}
+.img__zqnn5 {
+  position: relative;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+.img__zqnn5 > picture > img {
+  object-fit: cover;
+}
+.img__zqnn5 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.textroadmap_backend__wIkVmbezb {
+  padding-left: 0px;
+}
+.textroadmap_fullstack__aPka769Wii {
+  width: auto;
+}
+.freeBox__xk5V2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-self: center;
+}
+@media (max-width: 1024px) {
+  .freeBox__xk5V2 {
+    align-self: flex-start;
+  }
+}
+.button__fF6A4:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: auto;
+  align-self: auto;
+}
+.svg__qRznK {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg__ttWRh {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}

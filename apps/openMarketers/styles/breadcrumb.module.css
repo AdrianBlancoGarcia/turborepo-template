@@ -1,0 +1,21 @@
+.breadcrumbCursosMobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .breadcrumbCursosMobile {
+        display: flex;
+    }
+
+    .breadcrumbHome {
+        display: none;
+    }
+
+    .breadcrumbCursos {
+        display: none;
+    }
+
+    .breadcrumbCurso {
+        display: none;
+    }
+}

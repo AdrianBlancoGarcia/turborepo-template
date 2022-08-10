@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  height: 32px;
+  width: 118px;
+  color: var(--token-PS_unVUtFLPPh9);
+  flex-shrink: 0;
+  display: block;
+}

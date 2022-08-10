@@ -1,0 +1,33 @@
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+.goBack{
+    position: relative;
+    margin: 45px 0;
+}
+
+.goBack > a{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666A75;
+}
+
+.goBack > a > svg{
+    font-size: 16px;
+}
+
+.goBack > a > span{
+    padding-left: 10px;
+}
+
+.goBack > a:hover{
+    color: black;
+}

@@ -1,0 +1,82 @@
+.root {
+  flex-direction: row;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: none;
+  position: relative;
+  border-radius: 10px;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 6px;
+}
+.freeBox {
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  min-width: 0;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  min-width: 0;
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 0px;
+}
+.slotTargetDificultad {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+.text__yFm {
+  font-size: 25px;
+  color: #725dd3;
+  font-family: "Inter", sans-serif;
+  line-height: 1.2;
+}
+.slotTargetDuracion {
+  font-family: "Inter", sans-serif;
+  color: var(--token-kkADBIMoiuctme);
+  line-height: 1.2;
+}
+.text__k40Bd {
+  color: #725dd3;
+  font-size: 25px;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  min-width: 0;
+}
+.texttipos_duracion {
+  padding-bottom: 0px;
+}

@@ -1,0 +1,49 @@
+.cursoItem {
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cursoItem:hover {
+    opacity: 0.5;
+    animation-name: item;
+    animation-duration: 0.30s;
+    animation-iteration-count: 1;
+}
+
+.skeleton {
+    width: 230px;
+    height: 200px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 9px;
+    animation-name: skeleton;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes skeleton {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes item {
+    0% {
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.5;
+    }
+}

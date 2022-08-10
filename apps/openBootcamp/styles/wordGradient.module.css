@@ -1,0 +1,21 @@
+.span {
+  background: linear-gradient(45deg, rgba(55,119,172,1) 0%, rgba(255,206,43,1) 100%);
+  background-size: 120%;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.leccionContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 1065px) {
+    .leccionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

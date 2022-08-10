@@ -1,0 +1,52 @@
+.mainInfo{
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid #DBDBE2;
+    border-radius: 14px;
+    margin-top: 45px;
+    background: white;
+}
+
+.mainInfo > div{
+    display: flex;
+    flex: 33.3333%;
+    flex-direction: column;
+    padding: 25px 30px;
+}
+
+.mainInfo > div:not(:last-of-type){
+    border-right: 1px solid #DBDBE2;
+}
+
+.mainInfo > div > h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.mainInfo > div > h4 > svg{
+    font-size: 20px;
+}
+
+.mainInfo > div > p{
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+}
+
+@media(max-width:900px) {
+    .mainInfo{
+        flex-flow: column wrap;
+    }
+    .mainInfo > div{
+        align-items: center;
+    }
+    .mainInfo > div:not(:last-of-type){
+        border-right: 0;
+        border-bottom: 1px solid #DBDBE2;
+    }
+}

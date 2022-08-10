@@ -1,0 +1,161 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  min-height: 0;
+}
+.navbar:global(.__wab_instance) {
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  position: fixed;
+  flex-shrink: 0;
+}
+@media (max-width: 1024px) {
+  .navbar:global(.__wab_instance) {
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    position: fixed;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .navbar:global(.__wab_instance) {
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    position: fixed;
+    flex-shrink: 0;
+  }
+}
+.button__gEkrF:global(.__wab_instance) {
+  max-width: 100%;
+  width: auto;
+  display: none;
+}
+.svg__gllVt {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg__hw0Fp {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.linkOb___1OJM:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__ibtTq {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg___6Wqu9 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.linkOb__recle:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__w91KL {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__bHwkd {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.linkOb__nF9D:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__vk1Oo {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__cROe {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.linkOb___0Qu5T:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__psCc6 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  display: block;
+}
+.svg__woGr5 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.button__qll2U:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: auto;
+  display: flex;
+}
+.svg__fucei {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg__uxkpH {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.button__wwWuT:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 145px;
+  display: flex;
+}
+.svg__wkDbu {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.svg__zfZr {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.politicadeCookies:global(.__wab_instance) {
+  margin: 80px 0px 0px;
+}

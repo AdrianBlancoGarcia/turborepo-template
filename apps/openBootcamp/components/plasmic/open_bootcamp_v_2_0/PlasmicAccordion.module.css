@@ -1,0 +1,108 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.freeBox__pPmt {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__pPmt > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 40px);
+  height: calc(100% + 40px);
+}
+.freeBox__pPmt > :global(.__wab_flex-container) > *,
+.freeBox__pPmt > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__pPmt > :global(.__wab_flex-container) > picture > img,
+.freeBox__pPmt
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 40px;
+}
+.sectionHeading {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  align-self: center;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  min-width: 0;
+}
+.freeBox__tD6Sl {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__tD6Sl > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 7px);
+  width: calc(100% + 7px);
+}
+.freeBox__tD6Sl > :global(.__wab_flex-container) > *,
+.freeBox__tD6Sl > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__tD6Sl > :global(.__wab_flex-container) > picture > img,
+.freeBox__tD6Sl
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 7px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 2px;
+  height: 2px;
+  flex-shrink: 0;
+}
+.content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}

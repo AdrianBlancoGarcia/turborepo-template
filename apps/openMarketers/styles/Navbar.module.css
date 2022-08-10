@@ -1,0 +1,19 @@
+.navbar_container {
+  position: none;
+}
+
+.banner_container {
+  bottom: 0;
+  z-index: 20000;
+  position: fixed !important;
+
+  transition: transform 0.4s;
+}
+
+.banner_container__hidden {
+  transform: translateY(80px);
+}
+
+.banner_container__show {
+  transform: translateY(0px);
+}
